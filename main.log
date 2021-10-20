@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  20 OCT 2021 15:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  20 OCT 2021 16:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -316,10 +316,10 @@ No file main.bbl.
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4347 strings out of 478994
- 60134 string characters out of 5858184
- 350452 words of memory out of 5000000
- 21762 multiletter control sequences out of 15000+600000
+ 4349 strings out of 478994
+ 60159 string characters out of 5858184
+ 350747 words of memory out of 5000000
+ 21764 multiletter control sequences out of 15000+600000
  410498 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,8n,74p,772b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -327,7 +327,7 @@ Here is how much of TeX's memory you used:
 /cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr17.pfb>
-Output written on main.pdf (9 pages, 51724 bytes).
+Output written on main.pdf (9 pages, 51661 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream

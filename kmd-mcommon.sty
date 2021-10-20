@@ -82,11 +82,12 @@
         \def\doctitlestr{#1}
         \def\mastersthesis{1}
         \def\mastersreport{2}
-        \def\jdoctitle{\ifcase\doctitlestr\or{修士論文}\or{課題研究}\fi}
-        \def\jdoctype{\ifcase\doctitlestr\or{論文}\or{報告書}\fi}
-        \def\jdocname{\ifcase\doctitlestr\or{修士論文}\or{課題研究の報告書}\fi}
-        \def\edoctitle{\ifcase\doctitlestr\or{Master's Thesis}\or{Master's Report}\fi}
-        \def\edoctitleacronym{\ifcase\doctitlestr\or{MT}\or{MR}\fi}
+        \def\bachelorsreport{3}
+        \def\jdoctitle{\ifcase\doctitlestr\or{修士論文}\or{課題研究}\or{学士論文}\fi}
+        \def\jdoctype{\ifcase\doctitlestr\or{論文}\or{報告書}\or{学士論文}\fi}
+        \def\jdocname{\ifcase\doctitlestr\or{修士論文}\or{課題研究の報告書}\or{学士論文}\fi}
+        \def\edoctitle{\ifcase\doctitlestr\or{Master's Thesis}\or{Master's Report}\or{Bachelor's Thesis}\fi}
+        \def\edoctitleacronym{\ifcase\doctitlestr\or{MT}\or{MR}\or{BT}\fi}
 }
 %
 \def\titlestr{Title}
@@ -165,8 +166,9 @@
 \newcommand{\major}[1]{
         \def\majorstr{#1}
         \def\mediadesign{1}
-        \def\jmajorstr{\ifcase\majorstr\or{メディアデザイン学}\fi}
-        \def\emajorstr{\ifcase\majorstr\or{Media Design}\fi}
+        \def\envandinfo{2}
+        \def\jmajorstr{\ifcase\majorstr\or{メディアデザイン学}\or{環境情報学}\fi}
+        \def\emajorstr{\ifcase\majorstr\or{Media Design}\or{Environment and Information Sciences}\fi}
 }
 
 %
@@ -398,7 +400,8 @@
         \ekeywordsstr
        \vspace*{3mm}
         \begin{flushright}
-        {\large Graduate School of Media Design, Keio University}
+        % {\large Graduate School of Media Design, Keio University}
+        {\large Faculty of Environment and Information Sciences, Keio University}
         \end{flushright}
         \begin{flushright}
         	\large\eauthorstr
