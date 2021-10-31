@@ -1,0 +1,57 @@
+NOT a forward and backward movement
+
+"Friedman (1975), have shown that these head movements appear to be under visual control and that they are neither initiated by the vestibular system nor synergistic with leg movements".
+
+Head bobbing:
+Lock phase while body moves forward
+Thrust phase to move head to a new position
+
+Hypothesis:
+Balancing the bird during locomotion
+Visual/optic stabilization
+
+Experiment:
+Pigeons on treadmill
+Pigoons' adaptation of walking speed to speed on treadmill
+
+Results:
+[Without treadmill]
+Lock and thrust phases
+Body movement maintaining static velocity
+"the head-bobbing movements are not necessarily related to leg and foot movements of the bird"
+
+[Treadmill]
+No head-bobbing
+Body velocity = treadmill velocity
+(Head and body velocity adjustments for discrepencies)
+
+[Very slow treadmill]
+No waking
+Slow head-bobbing
+
+
+Landing:
+  "However, sensitive to the fact that the apparent and widely accepted 'backward and forward' movements during walking are illusory, the landing of feral pigeons was filmed to confirm this impression".
+
+  "The trajectory of the head proceeds smoothly through space and probably appears to 'bob* because of the forward and backward ' figure of eight' movement of the wingtips".
+
+
+Discussion:
+[Sufficiency of evidence toward optical functionaity]
+  "'How can visual stimulation produce compensation to bodily motion unless that motion is apparent, and how can this motion be apparent unless the head moves sufficiently to produce a perceptible change in the position of the head with reference to the visual field?'"
+
+  "The slow slippage of head position evident during extremely slow treadmill speeds could possibly, however, provide sufficient visual error signal to generate these compensatory head movements".
+
+
+[Tectal optic hypothesis]
+  During forward locomotion, everything else moves backwards relative to host, which is desensitized due to its specialized usage during flight (self-indulged backward flow), so the head stabilization prevents this desensitization.
+
+  "One of several potential problems with this interpretation was that this type of unit might also be maladaptively desensitized to backward motion while the bird was walking".
+
+[Preference of backward motion in optics]
+  "The 'hold and thrust' ratcheting of the bird's head through his visual world while walking could possibly be interpreted as a response mechanism which would keep 'backward notch' units in a recovered or semi-recovered state".
+
+  "better able to detect object motion in the backward direction through the visual field".
+
+[Parallax neuron hypothesis]
+  "If motion parallax is operating in these species then relative velocity specific neurones would probably be involved".

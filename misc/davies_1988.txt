@@ -1,0 +1,47 @@
+"The results provide evidence that head- bobbing is not a mechanical consequence of cursorial or flight activity, and that its visual functions must include others besides stabilization of the retinal image.
+It is suggested that head-bobbing has the dual function of amplifying relative motion in the retinal image during the thrust phase, making the detection of food objects more likely, while allowing detection of object motion during the hold phase".
+
+
+[Head-bob for balance during locomotion]
+  "Any consideration of the functions of head-bobbing must take into account its relationship with vision, as the behaviour will constrain the information available to the bird for the visual guidance of behaviour".
+
+  "One piece of evidence against the hypothesis that head-bobbing has a function in maintaining balance is that many birds do not head-bob during cursorial locomotion, and yet show no handicap in balance".
+
+
+[Frost's treadmill]
+  "Frost (1978a) also demonstrated that the head of a pigeon is not exactly stabilized during the hold phase of head-bobbing, but moves relative to the surroundings at a low velocity and so provides a velocity error signal to stabilize the head".
+
+
+[Motion parallax hypothesis]
+  "The other hypothesis is that the thrust phase makes motion parallax information available, which can specify relative distances of objects in the surroundings, in the same way as peering can make parallax information available in birds"
+
+
+[Research Questions]
+  "the behaviour is under visual and not vestibular control. Why, therefore, should it stop simply because the bird is in flight and not walking?"
+
+  "Second, if head-bobbing does stop during flight, what factors control it? Is it the form of locomotion, the forward speed of the body or a combination of these?"
+
+
+[Experiment]
+  "first analysing the changes in head-bobbing as speed of active walking increases, and then recording head movements during slow flight, both in take-off and in landing".
+
+=== OMITTED ===
+
+General Discussion:
+  [Motion parallax DEPTH + Image stabilization]
+    "They provide strong evidence that its function cannot be only to achieve stabilization of the image relative to the retina during the hold phase".
+
+    "If this were so, birds would not be expected to head-bob during running or slow flight when the behaviour does not achieve stabilization, unless compensatory eye movements were made at the point of lowest velocity".
+
+    "An explanation of head-bobbing more consistent with the present findings is that given by Frost (1978a), who argues that the behaviour has the dual functions of stabilizing the retinal image during the hold phase, so that object motion can be detected, and of generating motion parallax during the thrust phase to provide depth information".
+
+  [Avian Ethology]
+    "If a function of the thrust phase is to amplify relative motion in the retinal image
+and make detection of objects on the ground more likely, then head-bobbing would be expected to occur in all situations where a bird needs information about nearby objects below it, whether the image could be stabilized or not. A running bird would be expected to head-bob to increase the chance of detecting food objects on the ground, and one in slow flight towards a landing surface would head-bob to obtain more information about the texture of the surface it is approaching. A bird taking off from the ground does not need information about the surface below it, and head-bobbing would not be expected".
+
+=== OMITTED ===
+
+  [Proposals]
+    First, we propose that the tectal system also analyses local relative motion caused by self movement, and so contributes to figure-ground segregation.
+
+    Second, we do not agree that cells responsive to a spot and background moving in opposite directions (Frost & Nakayama, 1983) are sufficient to explain detection of object motion. They would fail to detect objects moving backwards through the visual field at velocities similar to that of the bird, as their responses could not be discriminated from those caused by self-induced motion. 'Backward notch' neurones (Frost & DiFranco, 1976), with rapid adaptation to backwards motion, do not solve this problem, but cells responsive to movement in any direction against a stationary background would solve it, since their activity during a hold phase would signal object motion unambiguously. We therefore predict that cells with these properties will also be found in the tectum.
