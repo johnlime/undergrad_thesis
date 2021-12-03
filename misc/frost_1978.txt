@@ -12,7 +12,7 @@ Visual/optic stabilization
 
 Experiment:
 Pigeons on treadmill
-Pigoons' adaptation of walking speed to speed on treadmill
+Pigeons' adaptation of walking speed to speed on treadmill
 
 Results:
 [Without treadmill]
@@ -23,7 +23,7 @@ Body movement maintaining static velocity
 [Treadmill]
 No head-bobbing
 Body velocity = treadmill velocity
-(Head and body velocity adjustments for discrepencies)
+(Head and body velocity adjustments for discrepancies)
 
 [Very slow treadmill]
 No waking
@@ -54,4 +54,4 @@ Discussion:
   "better able to detect object motion in the backward direction through the visual field".
 
 [Parallax neuron hypothesis]
-  "If motion parallax is operating in these species then relative velocity specific neurones would probably be involved".
+  "If motion parallax is operating in these species then relative velocity specific neurons would probably be involved".
