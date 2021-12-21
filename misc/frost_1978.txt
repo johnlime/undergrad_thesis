@@ -46,12 +46,14 @@ Discussion:
 [Tectal optic hypothesis]
   During forward locomotion, everything else moves backwards relative to host, which is desensitized due to its specialized usage during flight (self-indulged backward flow), so the head stabilization prevents this desensitization.
 
+  "A functionalistic interpretation of these 'backward notch' units proposed by Frost & Thomson (1972) suggested that these units might be specialized to respond to object motion by specifically vetoing the self-induced backward flow of motion produced while a bird was in flight (Gibson, 1950, 1966). The rapid differential adaptation to backward motion (Frost & DiFranco, 1976) was consistent with this idea, for when a pigeon is still, these units would recover and thus respond to motion in any direction through their receptive fields".
+
   "One of several potential problems with this interpretation was that this type of unit might also be maladaptively desensitized to backward motion while the bird was walking".
 
 [Preference of backward motion in optics]
-  "The 'hold and thrust' ratcheting of the bird's head through his visual world while walking could possibly be interpreted as a response mechanism which would keep 'backward notch' units in a recovered or semi-recovered state".
+  "The 'hold and thrust' ratcheting of the bird's head through his visual world while walking could possibly be interpreted as a response mechanism which would keep 'backward notch' units in a recovered or semi-recovered state"...
 
-  "better able to detect object motion in the backward direction through the visual field".
+  ..."and thus better able to detect object motion in the backward direction through the visual field".
 
 [Parallax neuron hypothesis]
   "If motion parallax is operating in these species then relative velocity specific neurons would probably be involved".
