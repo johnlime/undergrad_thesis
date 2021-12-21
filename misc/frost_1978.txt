@@ -50,7 +50,7 @@ Discussion:
 
   "One of several potential problems with this interpretation was that this type of unit might also be maladaptively desensitized to backward motion while the bird was walking".
 
-[Preference of backward motion in optics]
+[Recovering identification of backward motion in optics]
   "The 'hold and thrust' ratcheting of the bird's head through his visual world while walking could possibly be interpreted as a response mechanism which would keep 'backward notch' units in a recovered or semi-recovered state"...
 
   ..."and thus better able to detect object motion in the backward direction through the visual field".
