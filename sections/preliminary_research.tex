@@ -1,5 +1,5 @@
-\section{Preliminary Research}
-\subsection{Modeling biological phenomena}
+\chapter{Preliminary Research}
+\section{Modeling biological phenomena}
 % Robotics and Animals paper
   % Discusses limitations of robotics as biological modeling
     % Robotic modeling can be used for proposing or testing hypothesis
@@ -16,13 +16,14 @@
     % Method to tackle discrepancies between complexity of biological phenomena and its model
     % Tie into current research
 
-\subsection{Head-Bobbing in Pigeons}
+\section{Head-Bobbing in Pigeons}
 % Head-bobbing = Head stabilization + Thrust
   % The "head-bob" behavior in pigeons consists of stabilizing the location and orientation of the head and altering them periodically. Such are dubbed as the hold phase and the thrust phase, respectively \cite{frost1978optokinetic}.
 
 % Introduce 2 Hypothesis
   Frost and Davies' have proposed hypotheses regarding the functionalities of such behavior have been proposed \cite{frost1978optokinetic} \cite{davies1988head}. Both proposals highlight the use of the hold phase as a means to stabilize vision and the use of the thrust phase as a means to detect motion parallax and determine the distance between objects.
 
+\subsection{Hold Phase}
 % Head stabilization used for stabilizing vision
   Frost's hypothesis links the functionality of the hold phase to the detection of backward motion within the eye \cite{frost1978optokinetic}. Pigeons' heads, while flying or moving forward, would be detecting objects whose movements can be distinguished from the surrounding stationary objects. Since stationary objects would be moving backwards relative to the pigeons' eyes, desensitizing backward motion would be necessary for such distinctions to be detected. However, this desensitization would be detrimental to the pigeons' object recognition while the pigeons' heads are stationary. The hypothesis highlights the existence of "backward notch" cells which counteract the aforementioned desensitization. Such cells would be activated when the pigeons' vision is stabilized and allowing them to distinguish objects moving backward relative to stationary objects, hence the necessity of the hold phase during locomotion.
 
@@ -30,6 +31,7 @@
 
   In the context of our model, combining the two hypotheses leads to a mechanism that stabilizes the head of the pigeon relative to arbitrary stationary objects and activate cells that detect arbitrary motion during the hold phase.
 
+\subsection{Thrust Phase}
 % Motion Parallax
 
 % Kinematic purpose
