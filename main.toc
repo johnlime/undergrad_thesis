@@ -1,6 +1,8 @@
-\contentsline {section}{\numberline {0.1.}Background}{1}{}%
-\contentsline {subsection}{\numberline {0.1.1}Head-Bobbing in Pigeons}{1}{}%
-\contentsline {subsection}{\numberline {0.1.2}Reinforcement Learning}{1}{}%
-\contentsline {chapter}{Acknowledgements}{2}{}%
-\contentsline {chapter}{Appendix}{3}{}%
-\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{3}{}%
+\contentsline {section}{\numberline {0.1.}Background: Reinforcement Learning}{1}% 
+\contentsline {section}{\numberline {0.2.}Preliminary Research}{1}% 
+\contentsline {subsection}{\numberline {0.2.1}Modeling biological phenomena}{1}% 
+\contentsline {subsection}{\numberline {0.2.2}Head-Bobbing in Pigeons}{1}% 
+\contentsline {chapter}{Acknowledgements}{3}% 
+\contentsline {chapter}{References}{4}% 
+\contentsline {chapter}{Appendix}{5}% 
+\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{5}% 
