@@ -6,7 +6,8 @@
 \contentsline {subsection}{\numberline {2.2.1}Hold Phase}{3}% 
 \contentsline {subsection}{\numberline {2.2.2}Thrust Phase}{4}% 
 \contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{4}% 
-\contentsline {chapter}{Acknowledgements}{5}% 
-\contentsline {chapter}{References}{6}% 
-\contentsline {chapter}{Appendix}{7}% 
-\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{7}% 
+\contentsline {chapter}{\numberline {3}Approach}{5}% 
+\contentsline {chapter}{Acknowledgements}{6}% 
+\contentsline {chapter}{References}{7}% 
+\contentsline {chapter}{Appendix}{8}% 
+\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{8}% 

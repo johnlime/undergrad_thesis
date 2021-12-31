@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  30 DEC 2021 10:09
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  31 DEC 2021 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,7 +337,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.85594pt on input line 26.
 [3
 
-]) [4] [5
+]) (./sections/approach.tex [4]
+Chapter 3.
+) [5
+
+] [6
 
 ] (./main.bbl
 
@@ -352,9 +356,9 @@ LaTeX Font Info:    Font shape `JT2/gt/m/it' will be
 (Font)              scaled to size 11.54663pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/it' will be
 (Font)              scaled to size 11.54663pt on input line 12.
-) [6
+) [7
 
-] (./append-1.tex) [7
+] (./append-1.tex) [8
 
 ] (./main.aux)
 
@@ -362,12 +366,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3477 strings out of 493212
- 46133 string characters out of 6144391
+ 3480 strings out of 493212
+ 46185 string characters out of 6144391
  120285 words of memory out of 5000000
  7419 multiletter control sequences out of 15000+600000
  15705 words of font info for 73 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  26i,8n,32p,1073b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (13 pages, 14432 bytes).
+Output written on main.dvi (14 pages, 16460 bytes).
