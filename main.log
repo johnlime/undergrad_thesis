@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  31 DEC 2021 13:00
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  1 JAN 2022 17:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -327,21 +327,26 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 ] [2]
 Chapter 2.
+
+Overfull \hbox (23.85947pt too wide) in paragraph at lines 2--2
+[]\OT1/cmr/bx/n/17.28 Modeling Bi-o-log-i-cal Phe-nom-ena us-ing Robotics 
+ []
+
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 26.
+(Font)              scaled to size 13.85594pt on input line 27.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 26.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.85594pt on input line 26.
+(Font)              scaled to size 13.85594pt on input line 27.
 [3
 
-]) (./sections/approach.tex [4]
+]) (./sections/approach.tex [4] [5]
 Chapter 3.
-) [5
+) [6
 
-] [6
+] [7
 
 ] (./main.bbl
 
@@ -356,9 +361,9 @@ LaTeX Font Info:    Font shape `JT2/gt/m/it' will be
 (Font)              scaled to size 11.54663pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/it' will be
 (Font)              scaled to size 11.54663pt on input line 12.
-) [7
+) [8
 
-] (./append-1.tex) [8
+] (./append-1.tex) [9
 
 ] (./main.aux)
 
@@ -366,12 +371,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3480 strings out of 493212
- 46185 string characters out of 6144391
- 120285 words of memory out of 5000000
- 7419 multiletter control sequences out of 15000+600000
+ 3481 strings out of 493212
+ 46199 string characters out of 6144391
+ 121288 words of memory out of 5000000
+ 7420 multiletter control sequences out of 15000+600000
  15705 words of font info for 73 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  26i,8n,32p,1073b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (14 pages, 16692 bytes).
+Output written on main.dvi (15 pages, 17624 bytes).

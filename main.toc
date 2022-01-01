@@ -1,13 +1,13 @@
 \contentsline {chapter}{\numberline {1}Background}{1}% 
 \contentsline {section}{\numberline {1.1.}Reinforcement Learning}{1}% 
 \contentsline {chapter}{\numberline {2}Preliminary Research}{3}% 
-\contentsline {section}{\numberline {2.1.}Modeling biological phenomena}{3}% 
+\contentsline {section}{\numberline {2.1.}Modeling Biological Phenomena using Robotics}{3}% 
 \contentsline {section}{\numberline {2.2.}Head-Bobbing in Pigeons}{3}% 
-\contentsline {subsection}{\numberline {2.2.1}Hold Phase}{3}% 
+\contentsline {subsection}{\numberline {2.2.1}Hold Phase}{4}% 
 \contentsline {subsection}{\numberline {2.2.2}Thrust Phase}{4}% 
 \contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{4}% 
-\contentsline {chapter}{\numberline {3}Approach}{5}% 
-\contentsline {chapter}{Acknowledgements}{6}% 
-\contentsline {chapter}{References}{7}% 
-\contentsline {chapter}{Appendix}{8}% 
-\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{8}% 
+\contentsline {chapter}{\numberline {3}Approach}{6}% 
+\contentsline {chapter}{Acknowledgements}{7}% 
+\contentsline {chapter}{References}{8}% 
+\contentsline {chapter}{Appendix}{9}% 
+\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{9}% 
