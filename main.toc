@@ -3,11 +3,11 @@
 \contentsline {chapter}{\numberline {2}Preliminary Research}{3}% 
 \contentsline {section}{\numberline {2.1.}Modeling Biological Phenomena using Robotics}{3}% 
 \contentsline {section}{\numberline {2.2.}Head-Bobbing in Pigeons}{4}% 
-\contentsline {subsection}{\numberline {2.2.1}Hold Phase}{4}% 
+\contentsline {subsection}{\numberline {2.2.1}Hold Phase}{5}% 
 \contentsline {subsection}{\numberline {2.2.2}Thrust Phase}{5}% 
 \contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{5}% 
-\contentsline {chapter}{\numberline {3}Approach}{6}% 
-\contentsline {chapter}{Acknowledgements}{7}% 
-\contentsline {chapter}{References}{8}% 
-\contentsline {chapter}{Appendix}{9}% 
-\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{9}% 
+\contentsline {chapter}{\numberline {3}Approach}{7}% 
+\contentsline {chapter}{Acknowledgements}{8}% 
+\contentsline {chapter}{References}{9}% 
+\contentsline {chapter}{Appendix}{10}% 
+\contentsline {section}{\numberline {A.}eque porro quisquam est qu}{10}% 

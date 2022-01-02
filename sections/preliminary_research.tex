@@ -1,7 +1,7 @@
 \chapter{Preliminary Research}
 \section{Modeling Biological Phenomena using Robotics}
 % Robotics and Animals paper
-  As Webb discusses on the topic of utilizing robotics to aid research in biology \cite{webb2000does}, robotic modeling can be used for proposing or testing hypotheses. This can be accomplished by depicting the hypotheses in the form of algorithms or hardware configurations in robots and observing their emergent behaviors. The generated behaviors can then be compared with their biological counterparts. In particular, robotic models implemented based on preliminary hypotheses can be used as null hypotheses, which can be validated after observing behaviors exhibited by them.
+  As Webb discusses the topic of utilizing robotics to aid research in biology \cite{webb2000does}, where he argues that robotic modeling can be used for proposing or testing hypotheses. This can be accomplished by depicting the hypotheses in the form of algorithms or hardware configurations in robots and observing their emergent behaviors. The generated behaviors can then be compared with their biological counterparts. In particular, robotic models implemented based on preliminary hypotheses can be used as null hypotheses, which can be validated after observing behaviors exhibited by them.
 
   % Discusses limitations of robotics as biological modeling
     While Webb argues about the potential of using robotics for research in biology, he also highlights the limitations of such methods.
@@ -11,13 +11,19 @@
     From such perspective algorithmic models are inferior to models that utilize real robots since, as Webb states, they cannot confront problems seen in physical environments, such as noises or disturbances, that are not seen in virtual environments, such as physics engines.
     % Where can we use algorithmic models
       As such, algorithms in biology are often used for modeling neurological functionalities. In the context of modeling pigeons' locomotion, algorithmic models can represent the neurological controllers for the pigeons. In this case, the pigeons' interaction between their brains, their morphology, and their surrounding environments can be seen as a control system.
-      
-  % Learning model uses
-    % Examples
-    % Tie into current research
+%
+%  % Learning model uses
+%    % Learning models can be used as an algorithmic modeling method.
+%    % Examples
+%    % Tie into current research
+
   % Incremental models
-    % Method to tackle discrepancies between complexity of biological phenomena and its model
+    Webb identifies incremental modeling as a method to tackle the discrepancies between complexity of biological phenomena and their model counterparts. Incremental modeling builds multiple models for the same hypotheses, where each model gets more complex with biological or physical details.
+
     % Tie into current research
+      A biological model of a pigeon with high biological and physical details would consist of the musculoskeletal mechanism of pigeons, a spiking neural network to control all of the muscles, and a surrounding environment with complex details, such as bumpy terrain and colors. This would be too complicated of a problem to tackle in a single research paper, especially considering that the learning and control mechanism of spiking neural networks is currently unclear. Even if the musculoskeletal model were to be controlled by a fully connected deep neural network, the biological and environmental details, including the colors and the sheer number of controllable muscles, would heighten the input and output dimension of the neural network, making training it using deep reinforcement learning extremely difficult.
+
+      Our research specifically focuses on a simplified model of the pigeon, which includes simplified representations of limb control and retinal input.
 
 \section{Head-Bobbing in Pigeons}
 % Head-bobbing = Head stabilization + Thrust
