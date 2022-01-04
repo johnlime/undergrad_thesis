@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2.2.}Head-Bobbing in Pigeons}{4}% 
 \contentsline {subsection}{\numberline {2.2.1}Hold Phase}{5}% 
 \contentsline {subsection}{\numberline {2.2.2}Thrust Phase}{5}% 
-\contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{5}% 
+\contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{6}% 
 \contentsline {chapter}{\numberline {3}Approach}{7}% 
 \contentsline {chapter}{Acknowledgements}{8}% 
 \contentsline {chapter}{References}{9}% 

@@ -27,7 +27,7 @@
 
 \section{Head-Bobbing in Pigeons}
 % Head-bobbing = Head stabilization + Thrust
-  The "head-bob" behavior in pigeons consists of stabilizing the global location and orientation of the head and altering them periodically. Such are dubbed as the hold phase and the thrust phase, respectively \cite{frost1978optokinetic}.
+  The "head-bob" behavior in pigeons consists of stabilizing the global location and orientation of the head and altering them periodically. Such are dubbed as the hold phase and the thrust phase, respectively \cite{davies1988head}.
 
 % Introduce 2 Hypothesis
   Frost and Davies' have proposed hypotheses regarding the functionalities of such behavior have been proposed \cite{frost1978optokinetic} \cite{davies1988head}. Both proposals highlight the use of the hold phase as a means to stabilize vision and the use of the thrust phase as a means to detect motion parallax and determine the distance between objects.
@@ -36,7 +36,7 @@
 % Head stabilization used for stabilizing vision
   Frost's hypothesis links the functionality of the hold phase to the detection of backward motion within the eye \cite{frost1978optokinetic}. Pigeons' heads, while flying or moving forward, would be detecting objects whose movements can be distinguished from the surrounding stationary objects. Since stationary objects would be moving backwards relative to the pigeons' eyes, desensitizing backward motion would be necessary for such distinctions to be detected. However, this desensitization would be detrimental to the pigeons' object recognition while the pigeons' heads are stationary. The hypothesis highlights the existence of "backward notch" cells which counteract the aforementioned desensitization. Such cells would be activated when the pigeons' vision is stabilized and allowing them to distinguish objects moving backward relative to stationary objects, hence the necessity of the hold phase during locomotion.
 
-  Davies' hypothesis challenges this notion and highlights the lack of necessary conditions to induce a hold phase by stating that "they would fail to detect objects moving backwards through the visual field at velocities similar to that of the bird, as their responses could not be discriminated from those caused by self-induced motion" \cite{davies1988head}. Davies proposes the existence of cells that detect objects' movement relative to stationary backgrounds regardless of their directions.
+  Davies' hypothesis challenges this notion and highlights the lack of necessary conditions in Frost's hypothesis to induce a hold phase by stating that "they would fail to detect objects moving backwards through the visual field at velocities similar to that of the bird, as their responses could not be discriminated from those caused by self-induced motion" \cite{davies1988head}. Davies proposes the existence of cells that detect objects' movement relative to stationary backgrounds regardless of their directions.
 
   In the context of our model, combining the two hypotheses leads to a mechanism that stabilizes the head of the pigeon relative to arbitrary stationary objects and activate cells that detect arbitrary motion during the hold phase.
 
@@ -46,10 +46,22 @@
     % depth perception
     % stereopsis vs motion parallax
     % reduced overlapping areas in visions of both eyes
-  % Davies later elaborates in his hypothesis
-    % equation of depth perception via motion parallax
-    % equation of difference in depth between objects
-    % maximize speed of head for better differentiation between objects
+
+  % Davies' contribution
+    Davies later elaborates on the hypothesis by modeling the retinal information of objects \cite{davies1988head}.
+
+    Davies models the depth perception caused by motion parallax as
+    \begin{equation}
+      \dot \theta = \frac {v \sin \theta} {x}
+    \end{equation}
+    where $\theta$ is the angle of the object relative to the eye, $v$ is the velocity of the pigeon's head, and $x$ is the distance between the object and the head, or the depth of the object. The equation indicates that the depth of the object can be derived if the velocity of the head and the angular velocity of the object within the retina are given.
+
+    Davies further extends this model to account for detecting the difference in depth between objects. Davies differentiates the angular velocity of a single object and the relative angular velocity between an object at depth $x$ and an object at depth $y$ with the notation $\Delta$.
+    \begin{equation}
+      \Delta \dot \theta = v \sin \theta \left( {\frac 1 x - \frac 1 y} \right)
+    \end{equation}
+
+    Given the two equations, Davies argues that maximizing the speed of head would result in better differentiation between objects with different depths. By thrusting the head forward, the pigeon would be able to detect stationary objects in different depths, which cannot be detected during the hold phase. As an example Davies mentions the role of the eye in detection of food, such as the detection of bread crumbs lying on the ground close by as opposed to lampposts seen far away.
 
 \subsection{Regarding Kinematic Functionalities}
   When building our pigeon model, in addition to the hypotheses proposed regarding the hold phase and the thrust phase, we must take the effect of the torques of the neck joints and the movement of the head generated by them. Intuitively such motion would alter the balance of the entire pigeon, leading to mutual adjustments between the bipedal walk cycle and the neck control for head positioning. Additionally, the head-bobbing motion could be hypothesized to function as a means to balance the pigeon's forward locomotion. However as Davies argues in his paper \cite{davies1988head}, since head-bobbing is not exhibited during fast forward locomotion, such as flying, it is unlikely that such behavior has kinematic purposes. Frost's findings \cite{frost1978optokinetic} further support this idea by demonstrating that pigeons stabilize their head in one global coordinate regardless of the body's global velocity, it is likely that head-bobbing's functionalities are solely based on vision.
