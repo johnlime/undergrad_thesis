@@ -13,10 +13,14 @@
   % Preliminary hypotheses for the functionalities of head-bobbing behavior can be depicted using two reward functions, each depicting head stabilization and motion parallax generation.
 
   % Hold phase: Head stabilization
-    % retinal velocities of objects relative to each other should be minimized
-    % static objects should be stabilized into one location in the retina; moving objects' velocities should be represented as relative velocities to those of global static objects.
+    % retinal velocities of objects should be minimized
+    % static objects should be stabilized into one location in the retina (; moving objects' velocities should be represented as relative velocities to those of global static objects).
     % reward function equation
-    
+    % \begin{equation}
+    %   r_t = - \sum_i^n |\dot \theta_i|
+    % \end{equation}
+    % where $n$ is the number of objects in the environment and $\dot \theta$ is the angular velocity of each object.
+
   % Thrust phase: Maximizing motion parallax
     % sum of all velocities of objects should be maximized
   % how would optimization algorithms solve this tradeoff?
