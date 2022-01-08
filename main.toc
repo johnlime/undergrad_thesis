@@ -11,6 +11,7 @@
 \contentsline {section}{\numberline {3.2.}Baseline: Manually-Defined Head Trajectory}{8}% 
 \contentsline {section}{\numberline {3.3.}Hypothesis Testing}{9}% 
 \contentsline {subsection}{\numberline {3.3.1}Head Stabilization}{9}% 
+\contentsline {subsection}{\numberline {3.3.2}Motion Parallax}{9}% 
 \contentsline {chapter}{\numberline {4}Experiments}{10}% 
 \contentsline {chapter}{\numberline {5}Analysis}{11}% 
 \contentsline {chapter}{Acknowledgements}{12}% 

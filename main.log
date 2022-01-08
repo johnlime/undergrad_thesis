@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  8 JAN 2022 12:17
+This is e-upTeX, Version 3.14159265-p3.8.2-u1.24-190131-2.6 (utf8.uptex) (TeX Live 2019) (preloaded format=uplatex 2019.11.18)  8 JAN 2022 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -295,13 +295,13 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 1.
-)
+ [2
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [2
-
-] [3] (./main.lof)
+ [3] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -353,7 +353,7 @@ Overfull \hbox (2.97148pt too wide) in paragraph at lines 8--8
 
 [8
 
-] [9]
+]) (./sections/experiments.tex [9]
 Chapter 4.
 ) (./sections/analysis.tex [10
 
@@ -392,12 +392,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3749 strings out of 493212
- 48293 string characters out of 6144391
+ 3752 strings out of 493212
+ 48354 string characters out of 6144391
  220331 words of memory out of 5000000
  7681 multiletter control sequences out of 15000+600000
  16460 words of font info for 77 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  26i,8n,32p,1073b,1692s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (37 pages, 71664 bytes).
+Output written on main.dvi (37 pages, 72016 bytes).
