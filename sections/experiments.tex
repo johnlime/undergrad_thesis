@@ -1,14 +1,33 @@
 \chapter{Experiments}
-% reference to Appendix
 
-% diagram of the pigeon's model
-  % size of each limb, body, head
+% dimensions of the pigeon model
+  % Our pigeon model's dimensions and orientations are set at static values for all experiments, as shown in [Figure ???].
+    % insert diagram
+  % Additionally, the pigeon's head relative to the body is facing the negative direction relative to the x-axis.
+  % The widths and heights of each limb, head, and body are $(10, 4)$, $(6, 4)$, $(20, 10)$ respectively.
+  % The initial angles of each limb are oriented at 45 degrees relative to the x-axis, and both the head and the body are oriented parallel to the x axis.
+  % The body's initial position is at the origin, and is set to move at a constant speed in the negative direction along the x-axis.
 
-% pigeon's initial position
-  % negative direction
+% head trajectory setting
+  % The target head location $T$ is set at $(0, -2)$ relative to the initial position of the head.
+  % The threshold value for the distance between the target position and the torso's position is set at 10.
+  % We set a value that represents the margin of error between $T$ and the position of the head, which allows positive reward to be returned from the environment if the position of the head is within it.
+
 % objects placed on the surrounding environment of the pigeon
   % positions
+    % [[-30.0, 30.0], [-30.0, 60.0], [-60.0, 30.0]]
   % velocities
+    % [[0.0, 0.0], [1.0, 0.0], [-1.0, 0.0]]
+
+% experiments
+  % _head_stable_manual_reposition
+  % _head_stable_manual_reposition_strict_angle
+  % _retinal_stabilization
+  % _motion_parallax
+  % _fifty_fifty
+
+% We constructed OpenAI Gym environments $PigeonEnv3Joints$ and $PigeonRetinalEnv$ for conducting reinforcement learning based on the baseline training and preliminary hypotheses, respectively.
+  % Details regarding the environments' code can be referred to the Appendix.
 
 % SAC a type of reinforcement learning model
   % epochs

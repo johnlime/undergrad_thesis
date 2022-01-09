@@ -1,4 +1,24 @@
 \chapter{Approach}
+
+\section{Research Question}
+  % In our research we focus on two questions:
+    % can hold and thrust phases emerge if given such tradeoff?
+
+    % how would optimization algorithms solve this tradeoff?
+
+  % \begin{itemize}
+    % \item
+    % \begin{description}
+      % \item
+    % \end{description}
+
+    % \item
+    % \begin{description}
+      % \item
+    % \end{description}
+  % \end{itemize}
+
+
 % def of pigeon model
 \section{Definition of the Pigeon Model}
   We define a simplified 2-dimensional model of pigeons based on incremental modeling. The pigeon model consists of 3 joints connecting one body representing the head, 2 bodies representing the neck, and one body representing the torso. The model's physics, mainly the collision and gravity, is simulated in a 2 dimensional physics engine. The torso's orientation and y-position is fixed while its x-position is incremented by a constant value. This represents forward locomotion at a constant speed.
@@ -39,7 +59,3 @@
     \begin{equation}
       {r_{motion\_parallax}}_t = \sum_i^n \sum_{j \ne i}^n |\dot {\theta_i}_t - \dot {\theta_j}_t|
     \end{equation}
-
-\section{Research Question}
-  % can hold and thrust phases emerge if given such tradeoff?
-  % how would optimization algorithms solve this tradeoff?
