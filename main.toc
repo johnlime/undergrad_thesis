@@ -12,11 +12,12 @@
 \contentsline {section}{\numberline {3.3.}Hypothesis Testing}{9}% 
 \contentsline {subsection}{\numberline {3.3.1}Head Stabilization}{9}% 
 \contentsline {subsection}{\numberline {3.3.2}Motion Parallax}{9}% 
-\contentsline {chapter}{\numberline {4}Experiments}{10}% 
-\contentsline {chapter}{\numberline {5}Analysis}{11}% 
-\contentsline {chapter}{Acknowledgements}{12}% 
-\contentsline {chapter}{References}{13}% 
-\contentsline {chapter}{Appendix}{14}% 
-\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{14}% 
-\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{14}% 
-\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{25}% 
+\contentsline {section}{\numberline {3.4.}Research Question}{10}% 
+\contentsline {chapter}{\numberline {4}Experiments}{11}% 
+\contentsline {chapter}{\numberline {5}Analysis}{12}% 
+\contentsline {chapter}{Acknowledgements}{13}% 
+\contentsline {chapter}{References}{14}% 
+\contentsline {chapter}{Appendix}{15}% 
+\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{15}% 
+\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{15}% 
+\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{26}% 
