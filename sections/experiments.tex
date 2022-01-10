@@ -13,11 +13,9 @@
   % The threshold value for the distance between the target position and the torso's position is set at 10.
   % We set a value that represents the margin of error between $T$ and the position of the head, which allows positive reward to be returned from the environment if the position of the head is within it.
 
-% objects placed on the surrounding environment of the pigeon
-  % positions
-    % [[-30.0, 30.0], [-30.0, 60.0], [-60.0, 30.0]]
-  % velocities
-    % [[0.0, 0.0], [1.0, 0.0], [-1.0, 0.0]]
+% external objects
+  % 3 points and their positions are defined to represent 1 static and 2 dynamic objects placed on the surrounding environment of the pigeon.
+  % The static object's position is $(-30.0, 30.0)$, and the 2 dynamic objects' positions are $(-30.0, 60.0)$, $(-60.0, 30.0)$. The former dynamic object moves at speed 1 in the positive direction along the x-axis, while the latter moves at the same speed in the negative direction along the x-axis.
 
 % experiments
   % _head_stable_manual_reposition
