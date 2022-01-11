@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  11 JAN 2022 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  11 JAN 2022 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -411,19 +411,36 @@ Overfull \hbox (23.85947pt too wide) in paragraph at lines 2--2
 ] [4] [5]) (./sections/approach.tex [6] [7]
 Chapter 3.
 
-Overfull \hbox (2.97148pt too wide) in paragraph at lines 28--28
+Overfull \hbox (2.97148pt too wide) in paragraph at lines 10--10
 []\OT1/cmr/bx/n/17.28 Baseline: Manually-Defined Head Tra-jec-tory 
  []
 
 [8
 
 ]
-Overfull \hbox (11.66547pt too wide) in paragraph at lines 35--36
+Overfull \hbox (11.66547pt too wide) in paragraph at lines 17--18
 \OT1/cmr/m/n/12 de-picted us-ing two re-ward func-tions, each rep-re-sent-ing h
 ead sta-bi-liza-tion $[]$
  []
 
-[9]) (./sections/experiments.tex [10]
+[9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+
+ []
+
+) (./sections/experiments.tex [10]
 Chapter 4.
 <figures/pigeon_diagram/pigeon_diagram_001.png, id=65, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_001.png Graphic file (type png)
@@ -463,10 +480,10 @@ Chapter 6.
 [25] [26] [27] [28] [29] [30]) (./append-1-2.tex [31] [32] [33] [34] [35])
 [36] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5202 strings out of 492616
- 69019 string characters out of 6129480
+ 5219 strings out of 492616
+ 69321 string characters out of 6129480
  234763 words of memory out of 5000000
- 8980 multiletter control sequences out of 15000+600000
+ 8994 multiletter control sequences out of 15000+600000
  12168 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,32p,1073b,1587s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -483,7 +500,7 @@ fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
 /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (43 pages, 399079 bytes).
+Output written on main.pdf (43 pages, 400284 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams

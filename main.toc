@@ -7,12 +7,12 @@
 \contentsline {subsection}{\numberline {2.2.2}Thrust Phase}{5}% 
 \contentsline {subsection}{\numberline {2.2.3}Regarding Kinematic Functionalities}{6}% 
 \contentsline {chapter}{\numberline {3}Approach}{8}% 
-\contentsline {section}{\numberline {3.1.}Research Question}{8}% 
-\contentsline {section}{\numberline {3.2.}Definition of the Pigeon Model}{8}% 
-\contentsline {section}{\numberline {3.3.}Baseline: Manually-Defined Head Trajectory}{8}% 
-\contentsline {section}{\numberline {3.4.}Hypothesis Testing}{9}% 
-\contentsline {subsection}{\numberline {3.4.1}Head Stabilization}{9}% 
-\contentsline {subsection}{\numberline {3.4.2}Motion Parallax}{10}% 
+\contentsline {section}{\numberline {3.1.}Definition of the Pigeon Model}{8}% 
+\contentsline {section}{\numberline {3.2.}Baseline: Manually-Defined Head Trajectory}{9}% 
+\contentsline {section}{\numberline {3.3.}Hypothesis Testing}{9}% 
+\contentsline {subsection}{\numberline {3.3.1}Head Stabilization}{9}% 
+\contentsline {subsection}{\numberline {3.3.2}Motion Parallax}{10}% 
+\contentsline {section}{\numberline {3.4.}Notable Questions}{10}% 
 \contentsline {chapter}{\numberline {4}Experiments}{11}% 
 \contentsline {section}{\numberline {4.1.}Dimensions of the Pigeon Model}{11}% 
 \contentsline {section}{\numberline {4.2.}Experiment Environments}{12}% 

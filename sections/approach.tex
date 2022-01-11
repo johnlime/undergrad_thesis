@@ -1,23 +1,5 @@
 \chapter{Approach}
-
-\section{Research Question}
-  % In our research we focus on two questions:
-    % can hold and thrust phases emerge if given such tradeoff?
-
-    % how would optimization algorithms solve this tradeoff?
-
-  % \begin{itemize}
-    % \item
-    % \begin{description}
-      % \item
-    % \end{description}
-
-    % \item
-    % \begin{description}
-      % \item
-    % \end{description}
-  % \end{itemize}
-
+Our research purpose is to verify whether preliminary hypotheses regarding the functionalities of head-bobbing, particularly visual stabilization and motion parallax, are sufficient to cause such behavior. We would like to examine whether there are possibilities of other causes or functionalities that may contribute to generating such particular movements.
 
 % def of pigeon model
 \section{Definition of the Pigeon Model}
@@ -59,3 +41,19 @@
     \begin{equation}
       {r_{motion\_parallax}}_t = \sum_i^n \sum_{j \ne i}^n |\dot {\theta_i}_t - \dot {\theta_j}_t|
     \end{equation}
+
+
+\section{Notable Questions}
+  Given our approach, we can see that combining the reward functions for head stabilization and motion parallax result in a tradeoff between having to lock the position of the head in one place and having to move the head around. Therefore, it is of our belief that two more questions need to be addressed:
+
+  \begin{itemize}
+    \item Can hold and thrust phases emerge if given such tradeoff?
+    \begin{description}
+      \item
+    \end{description}
+
+    \item How would optimization algorithms solve this tradeoff?
+    \begin{description}
+      \item
+    \end{description}
+  \end{itemize}

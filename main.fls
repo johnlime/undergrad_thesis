@@ -155,6 +155,8 @@ INPUT sections/preliminary_research.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT sections/approach.tex
 INPUT sections/approach.tex
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT sections/experiments.tex
 INPUT sections/experiments.tex
 INPUT figures/pigeon_diagram/pigeon_diagram_001.png
