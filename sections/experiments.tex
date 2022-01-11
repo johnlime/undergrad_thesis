@@ -8,24 +8,42 @@
   % The initial angles of each limb are oriented at 45 degrees relative to the x-axis, and both the head and the body are oriented parallel to the x axis.
   % The body's initial position is at the origin, and is set to move at a constant speed in the negative direction along the x-axis.
 
-% head trajectory setting
-  % The target head location $T$ is set at $(0, -2)$ relative to the initial position of the head.
-  % The threshold value for the distance between the target position and the torso's position is set at 10.
-  % We set a value that represents the margin of error between $T$ and the position of the head, which allows positive reward to be returned from the environment if the position of the head is within it.
+% experiments; details on all 5 params and reward function differences
+  % head target trajectory tracking
+    % The target head location $T$ is set at $(0, -2)$ relative to the initial position of the head.
+    % We set the threshold value for the distance between the target position and the torso's position to 10. As mentioned in the previous chapter, when the the said distance is below the threshold value, $T$ is reset to be the same position relative to the body as its initial position.
+    % We set a value $max\_offset$ that represents the margin of error between $T$ and the position of the head.
+    % speed = 0
+      % _head_stable_manual_reposition_strict_angle
+        % We generate a positive reward only for timesteps where the distance between the head and $T$ is within $max\_offset$. Each reward is bounded within $[0, 1]$ and scaled based on the level of alignment to the x-axis.
+        % \begin{equation}
+          % r_{head\_stable\_manual\_reposition\_strict\_angle} =
+            % \begin{cases}
+              % 1 - \frac \alpha \pi & \text{if \alpha < \frac \pi 6} \\
+              % 0 & \text{otherwise}
+            % \end{cases}
+        % \end{equation}
+        % where $\alpha$ is the angle of the head.
+    % speed = 1
+      % _head_stable_manual_reposition
+        % Alongside this function, we define a looser reward function that generates positive reward as long as the head is within the set margin of error around the target location.
+        % \begin{equation}
+          % r_{head\_stable\_manual\_reposition} = r_{head\_stable\_manual\_reposition\_strict\_angle} +
+            % \begin{cases}
+              % 1 - \frac \delta {max\_offset} & \text{\delta < {max\_offset}} \\
+              % 0 & \text{otherwise}
+            % \end{cases}
+        % \end{equation}
+        % where $\delta$ is the distance between the head and $T$.
 
-% external objects
-  % 3 points and their positions are defined to represent 1 static and 2 dynamic objects placed on the surrounding environment of the pigeon.
-  % The static object's position is $(-30.0, 30.0)$, and the 2 dynamic objects' positions are $(-30.0, 60.0)$, $(-60.0, 30.0)$. The former dynamic object moves at speed 1 in the positive direction along the x-axis, while the latter moves at the same speed in the negative direction along the x-axis.
-
-% experiments
-  % _head_stable_manual_reposition
-  % _head_stable_manual_reposition_strict_angle
-  % _retinal_stabilization
-  % _motion_parallax
   % _fifty_fifty
+    % retinal stabilization and motion parallax
+    % external objects
+      % 3 points and their positions are defined to represent 1 static and 2 dynamic objects placed on the surrounding environment of the pigeon.
+      % The static object's position is $(-30.0, 30.0)$, and the 2 dynamic objects' positions are $(-30.0, 60.0)$, $(-60.0, 30.0)$. The former dynamic object moves at speed 1 in the positive direction along the x-axis, while the latter moves at the same speed in the negative direction along the x-axis.
 
 % We constructed OpenAI Gym environments $PigeonEnv3Joints$ and $PigeonRetinalEnv$ for conducting reinforcement learning based on the baseline training and preliminary hypotheses, respectively.
-  % Details regarding the environments' code can be referred to the Appendix.
+  % Details regarding the environments' code are in the Appendix.
 
 % SAC a type of reinforcement learning model
   % epochs
