@@ -1,43 +1,58 @@
 \chapter{Experiments}
 
 % dimensions of the pigeon model
-  % Our pigeon model's dimensions and orientations are set at static values for all experiments, as shown in [Figure ???].
-    % insert diagram
+  % Our pigeon model's dimensions and orientations are set at static values for all experiments, as shown in \ref{fig:pigeon_dimension}.
+    %\begin{figure}[H]
+        %\centering
+        %\includegraphics[width=1\textwidth]{figures/pigeon_diagram/pigeon_diagram.001.png}
+        %\label{fig:pigeon_dimension}
+    %\end{figure}
   % Additionally, the pigeon's head relative to the body is facing the negative direction relative to the x-axis.
   % The widths and heights of each limb, head, and body are $(10, 4)$, $(6, 4)$, $(20, 10)$ respectively.
   % The initial angles of each limb are oriented at 45 degrees relative to the x-axis, and both the head and the body are oriented parallel to the x axis.
   % The body's initial position is at the origin, and is set to move at a constant speed in the negative direction along the x-axis.
 
 % experiments; details on all 5 params and reward function differences
+  % We trained a total of 5 reinforcement learning agents to control the pigeon model: 1 agent for the case where the model is tasked to track a target location $T$ with its head given an unmoving body, 2 agents for cases where the model is given the same task with the body speed of 1, 2 agents for cases where the model is tasked to move its joints to maximize the reward function $r_{fifty\_fifty}$, as defined in the previous chapter, under the body speed of 0 and 1 respectively.
+
   % head target trajectory tracking
-    % The target head location $T$ is set at $(0, -2)$ relative to the initial position of the head.
+    $ Several additional variables are defined for the pigeon to execute the task of tracking the manually-set target trajectory for the head as shown in /ref{fig:pigeon_target}.
+      %\begin{figure}[H]
+          %\centering
+          %\includegraphics[width=1\textwidth]{figures/pigeon_diagram/pigeon_diagram.002.png}
+          %\label{fig:pigeon_target}
+      %\end{figure}
+    % $T$ is set at $(0, -2)$ relative to the initial position of the head.
     % We set the threshold value for the distance between the target position and the torso's position to 10. As mentioned in the previous chapter, when the the said distance is below the threshold value, $T$ is reset to be the same position relative to the body as its initial position.
     % We set a value $max\_offset$ that represents the margin of error between $T$ and the position of the head.
+
     % speed = 0
       % _head_stable_manual_reposition_strict_angle
-        % We generate a positive reward only for timesteps where the distance between the head and $T$ is within $max\_offset$. Each reward is bounded within $[0, 1]$ and scaled based on the level of alignment to the x-axis.
+        % For the case with an unmoving body, we define a function that generates positive rewards only for timesteps where the distance between the head and $T$ is within $max\_offset$. Each reward is bounded within $[0, 1]$ and scaled based on the level of alignment to the x-axis.
         % \begin{equation}
-          % r_{head\_stable\_manual\_reposition\_strict\_angle} =
+          % {r_{head\_stable\_manual\_reposition\_strict\_angle}}_t =
             % \begin{cases}
-              % 1 - \frac \alpha \pi & \text{if \alpha < \frac \pi 6} \\
+              % 1 - \frac {\alpha_t} \pi & \text{if {\alpha_t} < \frac \pi 6} \\
               % 0 & \text{otherwise}
             % \end{cases}
         % \end{equation}
-        % where $\alpha$ is the angle of the head.
+        % where $\alpha_t$ is the angle of the head at timestep $t$.
+
     % speed = 1
       % _head_stable_manual_reposition
-        % Alongside this function, we define a looser reward function that generates positive reward as long as the head is within the set margin of error around the target location.
+        % For the speed of 1, alongside r_{head\_stable\_manual\_reposition\_strict\_angle}, we define a looser reward function that generates positive rewards as long as the head is within the set margin of error around the target location.
+        % It is expected that this function would serve as an alternate less strict to the former reward function that produce similar behaviors.
         % \begin{equation}
-          % r_{head\_stable\_manual\_reposition} = r_{head\_stable\_manual\_reposition\_strict\_angle} +
+          % {r_{head\_stable\_manual\_reposition}}_t = {r_{head\_stable\_manual\_reposition\_strict\_angle}}_t +
             % \begin{cases}
-              % 1 - \frac \delta {max\_offset} & \text{\delta < {max\_offset}} \\
+              % 1 - \frac {\delta_t} {max\_offset} & \text{{\delta_t} < {max\_offset}} \\
               % 0 & \text{otherwise}
             % \end{cases}
         % \end{equation}
-        % where $\delta$ is the distance between the head and $T$.
+        % where $\delta_t$ is the distance between the head and $T$ at timestep $t$.
 
   % _fifty_fifty
-    % retinal stabilization and motion parallax
+    % Preliminary hypotheses regarding retinal stabilization and motion parallax are depicted as the reward function $r_{fifty\_fifty}$. The reward function is used to train agents that represent behaviors derived from such hypotheses under the conditions of both speeds 0 and 1.
     % external objects
       % 3 points and their positions are defined to represent 1 static and 2 dynamic objects placed on the surrounding environment of the pigeon.
       % The static object's position is $(-30.0, 30.0)$, and the 2 dynamic objects' positions are $(-30.0, 60.0)$, $(-60.0, 30.0)$. The former dynamic object moves at speed 1 in the positive direction along the x-axis, while the latter moves at the same speed in the negative direction along the x-axis.
