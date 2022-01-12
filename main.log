@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  11 JAN 2022 19:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  12 JAN 2022 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,20 +382,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] (./main.lof)
+ [3] (./main.lof
+Overfull \hbox (107.56258pt too wide) in paragraph at lines 8--8
+ [][] []\OT1/cmr/m/n/12 Control of a pi-geon model with a static body trained o
+n $\OML/cmm/m/it/12 r[]$ 
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
  [4
 
-] (./main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
- [5
-
-]
-(./sections/background.tex
+] (./sections/background.tex
 Chapter 1.
 ) (./sections/preliminary_research.tex [1
 
@@ -442,7 +441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 
 ) (./sections/experiments.tex [10]
 Chapter 4.
-<figures/pigeon_diagram/pigeon_diagram_001.png, id=65, 2055.68pt x 1541.76pt>
+<figures/pigeon_diagram/pigeon_diagram_001.png, id=62, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_001.png Graphic file (type png)
 <use figures/pigeon_diagram/pigeon_diagram_001.png>
 Package pdftex.def Info: figures/pigeon_diagram/pigeon_diagram_001.png  used on
@@ -451,7 +450,7 @@ Package pdftex.def Info: figures/pigeon_diagram/pigeon_diagram_001.png  used on
 [11
 
 ] [12 <./figures/pigeon_diagram/pigeon_diagram_001.png>]
-<figures/pigeon_diagram/pigeon_diagram_002.png, id=76, 2055.68pt x 1541.76pt>
+<figures/pigeon_diagram/pigeon_diagram_002.png, id=72, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_002.png Graphic file (type png)
 <use figures/pigeon_diagram/pigeon_diagram_002.png>
 Package pdftex.def Info: figures/pigeon_diagram/pigeon_diagram_002.png  used on
@@ -462,48 +461,99 @@ Overfull \hbox (33.44357pt too wide) in paragraph at lines 67--69
 []\OT1/cmr/m/n/12 We con-structed Ope-nAI Gym en-vi-ron-ments [][] and []
  []
 
-) (./sections/results.tex [14] [15]
+) (./sections/results.tex [14]
 Chapter 5.
-) (./sections/analysis.tex [16
+<figures/frames/frames_001.png, id=83, 5018.75pt x 3011.25pt>
+File: figures/frames/frames_001.png Graphic file (type png)
+<use figures/frames/frames_001.png>
+Package pdftex.def Info: figures/frames/frames_001.png  used on input line 14.
+(pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]\OT1/cmr/m/n/10 Figure 5.1: Con-trol of a pi-geon model with a static body tr
+ained on
+ []
+
+[15
 
 ]
+<figures/frames/frames_002.png, id=87, 5018.75pt x 3011.25pt>
+File: figures/frames/frames_002.png Graphic file (type png)
+<use figures/frames/frames_002.png>
+Package pdftex.def Info: figures/frames/frames_002.png  used on input line 21.
+(pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
+
+Underfull \hbox (badness 4467) in paragraph at lines 22--22
+[]\OT1/cmr/m/n/10 Figure 5.2: Con-trol of a pi-geon model with the body speed o
+f 1 trained on
+ []
+
+[16 <./figures/frames/frames_001.png>]
+<figures/frames/frames_003.png, id=94, 5018.75pt x 3011.25pt>
+File: figures/frames/frames_003.png Graphic file (type png)
+<use figures/frames/frames_003.png>
+Package pdftex.def Info: figures/frames/frames_003.png  used on input line 28.
+(pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
+
+Underfull \hbox (badness 4467) in paragraph at lines 29--29
+[]\OT1/cmr/m/n/10 Figure 5.3: Con-trol of a pi-geon model with the body speed o
+f 1 trained on
+ []
+
+[17 <./figures/frames/frames_002.png>]
+<figures/frames/frames_004.png, id=99, 5018.75pt x 3011.25pt>
+File: figures/frames/frames_004.png Graphic file (type png)
+<use figures/frames/frames_004.png>
+Package pdftex.def Info: figures/frames/frames_004.png  used on input line 35.
+(pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
+ [18 <./figures/frames/frames_003.png>]
+<figures/frames/frames_005.png, id=104, 5018.75pt x 3011.25pt>
+File: figures/frames/frames_005.png Graphic file (type png)
+<use figures/frames/frames_005.png>
+Package pdftex.def Info: figures/frames/frames_005.png  used on input line 42.
+(pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
+)
+(./sections/analysis.tex [19 <./figures/frames/frames_004.png> <./figures/frame
+s/frames_005.png>]
 Chapter 6.
-) [17
+) [20
 
-] [18
+] [21
 
-] (./main.bbl) [19
+] (./main.bbl) [22
 
-] (./append-1-1.tex [20
+] (./append-1-1.tex [23
 
-] [21] [22] [23] [24]
-[25] [26] [27] [28] [29] [30]) (./append-1-2.tex [31] [32] [33] [34] [35])
-[36] (./main.aux) ) 
+] [24] [25] [26] [27]
+[28] [29] [30] [31] [32] [33]) (./append-1-2.tex [34] [35] [36] [37] [38])
+[39] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5219 strings out of 492616
- 69321 string characters out of 6129480
- 234763 words of memory out of 5000000
- 8994 multiletter control sequences out of 15000+600000
- 12168 words of font info for 46 fonts, out of 8000000 for 9000
+ 5251 strings out of 492616
+ 70299 string characters out of 6129480
+ 234818 words of memory out of 5000000
+ 9023 multiletter control sequences out of 15000+600000
+ 13222 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,32p,1073b,1587s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
-fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
-/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (43 pages, 400284 bytes).
+s/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (45 pages, 1976981 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
