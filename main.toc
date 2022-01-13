@@ -1,5 +1,4 @@
-\contentsline {chapter}{\numberline {1}Background}{1}% 
-\contentsline {section}{\numberline {1.1.}Reinforcement Learning}{1}% 
+\contentsline {chapter}{\numberline {1}Background: Reinforcement Learning}{1}% 
 \contentsline {chapter}{\numberline {2}Preliminary Research}{3}% 
 \contentsline {section}{\numberline {2.1.}Modeling Biological Phenomena using Robotics}{3}% 
 \contentsline {section}{\numberline {2.2.}Head-Bobbing in Pigeons}{4}% 
@@ -12,7 +11,7 @@
 \contentsline {section}{\numberline {3.3.}Hypothesis Testing}{9}% 
 \contentsline {subsection}{\numberline {3.3.1}Head Stabilization}{9}% 
 \contentsline {subsection}{\numberline {3.3.2}Motion Parallax}{10}% 
-\contentsline {section}{\numberline {3.4.}Notable Questions}{10}% 
+\contentsline {section}{\numberline {3.4.}Additional Notable Questions}{10}% 
 \contentsline {chapter}{\numberline {4}Experiments}{11}% 
 \contentsline {section}{\numberline {4.1.}Dimensions of the Pigeon Model}{11}% 
 \contentsline {section}{\numberline {4.2.}Experiment Environments}{12}% 
@@ -21,7 +20,7 @@
 \contentsline {chapter}{\numberline {6}Analysis}{20}% 
 \contentsline {chapter}{Acknowledgements}{21}% 
 \contentsline {chapter}{References}{22}% 
-\contentsline {chapter}{Appendix}{23}% 
-\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{23}% 
-\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{23}% 
-\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{34}% 
+\contentsline {chapter}{Appendix}{24}% 
+\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{24}% 
+\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{24}% 
+\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{35}% 

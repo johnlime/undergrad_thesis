@@ -1,5 +1,12 @@
 \begin{thebibliography}{1}
 
+\bibitem{bohn2019deep}
+B{\o}hn, E., Coates, E.~M., Moe, S., and Johansen, T.~A.
+\newblock Deep reinforcement learning attitude control of fixed-wing uavs using
+  proximal policy optimization.
+\newblock In {\em 2019 International Conference on Unmanned Aircraft Systems
+  (ICUAS)}, IEEE (2019), 523--533.
+
 \bibitem{davies1988head}
 DAVIES, M.~N., and GREEN, P.~R.
 \newblock Head-bobbing during walking, running and flying: relative motion
@@ -10,6 +17,37 @@ DAVIES, M.~N., and GREEN, P.~R.
 Frost, B.
 \newblock The optokinetic basis of head-bobbing in the pigeon.
 \newblock {\em Journal of Experimental Biology 74}, 1 (1978), 187--195.
+
+\bibitem{gao2019skynet}
+Gao, C., Hernandez-Leal, P., Kartal, B., and Taylor, M.~E.
+\newblock Skynet: A top deep rl agent in the inaugural pommerman team
+  competition.
+\newblock {\em arXiv preprint arXiv:1905.01360\/} (2019).
+
+\bibitem{guan2020centralized}
+Guan, Y., Ren, Y., Li, S.~E., Sun, Q., Luo, L., and Li, K.
+\newblock Centralized cooperation for connected and automated vehicles at
+  intersections by proximal policy optimization.
+\newblock {\em IEEE Transactions on Vehicular Technology 69}, 11 (2020),
+  12597--12608.
+
+\bibitem{haarnoja2018soft}
+Haarnoja, T., Zhou, A., Abbeel, P., and Levine, S.
+\newblock Soft actor-critic: Off-policy maximum entropy deep reinforcement
+  learning with a stochastic actor.
+\newblock In {\em International conference on machine learning}, PMLR (2018),
+  1861--1870.
+
+\bibitem{haarnoja2018softappli}
+Haarnoja, T., Zhou, A., Hartikainen, K., Tucker, G., Ha, S., Tan, J., Kumar,
+  V., Zhu, H., Gupta, A., Abbeel, P., et~al.
+\newblock Soft actor-critic algorithms and applications.
+\newblock {\em arXiv preprint arXiv:1812.05905\/} (2018).
+
+\bibitem{schulman2017proximal}
+Schulman, J., Wolski, F., Dhariwal, P., Radford, A., and Klimov, O.
+\newblock Proximal policy optimization algorithms.
+\newblock {\em arXiv preprint arXiv:1707.06347\/} (2017).
 
 \bibitem{webb2000does}
 Webb, B.

@@ -146,9 +146,9 @@ INPUT main.lof
 OUTPUT main.lof
 INPUT sections/background.tex
 INPUT sections/background.tex
+INPUT sections/preliminary_research.tex
+INPUT sections/preliminary_research.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT sections/preliminary_research.tex
-INPUT sections/preliminary_research.tex
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT sections/approach.tex
 INPUT sections/approach.tex
