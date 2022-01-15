@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  15 JAN 2022 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.18)  15 JAN 2022 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -422,24 +422,7 @@ Overfull \hbox (11.66547pt too wide) in paragraph at lines 17--18
 ead sta-bi-liza-tion $[]$
  []
 
-[9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-
- []
-
-) (./sections/experiments.tex [10]
+[9]) (./sections/experiments.tex [10]
 Chapter 4.
 <figures/pigeon_diagram/pigeon_diagram_001.png, id=62, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_001.png Graphic file (type png)
@@ -528,10 +511,10 @@ Chapter 6.
 [29] [30] [31] [32] [33] [34] [35]) (./append-1-2.tex [36] [37] [38] [39]
 [40]) [41] (./append-2.tex) [42] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5260 strings out of 492616
- 70452 string characters out of 6129480
+ 5243 strings out of 492616
+ 70150 string characters out of 6129480
  234836 words of memory out of 5000000
- 9029 multiletter control sequences out of 15000+600000
+ 9015 multiletter control sequences out of 15000+600000
  13222 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,32p,1073b,1587s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -551,7 +534,7 @@ lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (48 pages, 1986192 bytes).
+Output written on main.pdf (48 pages, 1985930 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  154 compressed objects within 2 object streams

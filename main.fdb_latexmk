@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1642222894 "main.aux" "main.bbl" "main" 1642223025
+["bibtex main"] 1642222894 "main.aux" "main.bbl" "main" 1642223913
   "./acm-sigchi.bst" 1634712482 20392 58f600faaaf4244407d3fe4153420d39 ""
-  "main.aux" 1642223024 6512 f1fb39a1889d3efb9f0d44802a1a79b2 "pdflatex"
+  "main.aux" 1642223913 6512 f1fb39a1889d3efb9f0d44802a1a79b2 "pdflatex"
   "ref.bib" 1642063320 2829 eb1630e309a9de0309359d383a2c1c31 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1642223019 "main.tex" "main.pdf" "main" 1642223025
+  "main.blg"
+["pdflatex"] 1642223908 "main.tex" "main.pdf" "main" 1642223913
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -64,7 +64,6 @@
   "/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty" 1544567569 85093 77cfa18ddbae4d9b74ade33d843686d3 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty" 1523134290 4116 32e6abd27229755a83a8b7f18e583890 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty" 1523134290 2432 8ff93b1137020e8f21930562a874ae66 ""
-  "/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd" 1523050425 2472 aa08940f0a4dc6c24ae9f943b04ae0b9 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls" 1544567569 22992 ac205d2578ad3f18cf73b50579632d1c ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/base/size12.clo" 1544567569 8305 6a682ae291edd56e2d7accbf95eca451 ""
   "/usr/local/texlive/2019/texmf-dist/tex/latex/cite/cite.sty" 1425427964 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
@@ -113,20 +112,20 @@
   "fn2end_config.sty" 1634668618 1047 765e1840bdef862a43c565f27814dcca ""
   "kmd-emthesis.sty" 1634714701 6115 41b7a86cb86f82e4995f8fc0e6f4e257 ""
   "kmd-mcommon.sty" 1634714622 13160 8a2171f6aea3614ee3513b1adba13678 ""
-  "main.aux" 1642223024 6512 f1fb39a1889d3efb9f0d44802a1a79b2 "pdflatex"
+  "main.aux" 1642223913 6512 f1fb39a1889d3efb9f0d44802a1a79b2 "pdflatex"
   "main.bbl" 1642222894 2197 f3a3b3c73348da7375342faadcd09569 "bibtex main"
-  "main.lof" 1642223024 1487 236efb12f9d5a9f591226fe456884117 "pdflatex"
+  "main.lof" 1642223913 1487 236efb12f9d5a9f591226fe456884117 "pdflatex"
   "main.tex" 1642222884 4196 2eddf356fbbf4ca0d683cde2c8944a1b ""
-  "main.toc" 1642223024 2090 9a2d6651b794680fea6a88dc7afbf9d4 "pdflatex"
-  "sections/approach.tex" 1641999988 4474 8b674bf388c73f1280e3dac4bb03ed16 ""
+  "main.toc" 1642223913 2090 9a2d6651b794680fea6a88dc7afbf9d4 "pdflatex"
+  "sections/approach.tex" 1642223888 4317 5f5fdeb2d4ff4edec04346d01b6e0fd1 ""
   "sections/background.tex" 1642223018 2924 560702555da56c38905fae8f34a40db9 ""
   "sections/discussion.tex" 1642222863 539 ef0902570f271a6b67ebfc85f99874c9 ""
   "sections/experiments.tex" 1642222723 6296 4f6b88201a9a2cc535d7beca4b854c2c ""
   "sections/preliminary_research.tex" 1641262208 9659 80849615ce7f768bccdf36c2151d96bd ""
   "sections/results.tex" 1642065765 2674 b16b57514a9aed20cde6aef17f3f8ac3 ""
   (generated)
-  "main.lof"
-  "main.toc"
   "main.log"
+  "main.lof"
   "main.pdf"
+  "main.toc"
   "main.aux"
