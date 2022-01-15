@@ -15,12 +15,15 @@
 \contentsline {chapter}{\numberline {4}Experiments}{11}% 
 \contentsline {section}{\numberline {4.1.}Dimensions of the Pigeon Model}{11}% 
 \contentsline {section}{\numberline {4.2.}Experiment Environments}{12}% 
-\contentsline {section}{\numberline {4.3.}Reinforcement Learning}{14}% 
-\contentsline {chapter}{\numberline {5}Results}{15}% 
-\contentsline {chapter}{\numberline {6}Analysis}{20}% 
-\contentsline {chapter}{Acknowledgements}{21}% 
-\contentsline {chapter}{References}{22}% 
-\contentsline {chapter}{Appendix}{24}% 
-\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{24}% 
-\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{24}% 
-\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{35}% 
+\contentsline {section}{\numberline {4.3.}Reinforcement Learning}{15}% 
+\contentsline {chapter}{\numberline {5}Results}{16}% 
+\contentsline {chapter}{\numberline {6}Discussion}{21}% 
+\contentsline {chapter}{Acknowledgements}{22}% 
+\contentsline {chapter}{References}{23}% 
+\contentsline {chapter}{Appendix}{25}% 
+\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{25}% 
+\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{25}% 
+\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{36}% 
+\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{42}% 
+\contentsline {subsection}{\numberline {B.1}Hyperparameters}{42}% 
+\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{42}% 

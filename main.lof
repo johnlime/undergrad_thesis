@@ -5,9 +5,9 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram of the pigeon model}}{12}% 
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Head trajectory tracking}}{13}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{16}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{17}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{18}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Control of a pigeon model with a static body trained on $r_{fifty\_fifty}$}}{19}% 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{fifty\_fifty}$}}{19}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{17}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{18}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}}{19}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Control of a pigeon model with a static body trained on $r_{fifty\_fifty}$}}{20}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{fifty\_fifty}$}}{20}% 
 \addvspace {10\p@ }

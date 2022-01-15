@@ -68,9 +68,9 @@ We constructed OpenAI Gym environments \lstinline|PigeonEnv3Joints| and \lstinli
   Details regarding the environments' code are in the Appendix.
 
 \section{Reinforcement Learning}
-% We used SAC to conduct batch training on each deep neural network agent for 3000 epochs. Each deep neural network has 256 neurons for the hidden layer.
+We used SAC to conduct batch training on each deep neural network agent for 3000 epochs. Each deep neural network has one hidden layer containing 256 neurons.
 
 % why we didn't use PPO
-  % PPO, despite being used often as baseline for many reinforcement learning experiments, was not used for training any of the 5 aforementioned controllers.
-  % When we attempted to train deep neural network controllers for pigeon models with static bodies using PPO and SAC with $r_{head\_stable\_manual\_reposition}$, we found that the agent trained on SAC had a more stable learning curve and a faster convergence rate than that trained on PPO.
-  % Therefore, we determined that it would be more reliable to use SAC to obtain the desired results.
+  PPO, despite being used often as baseline for many reinforcement learning experiments as we have stated beforehand, was not used for training any of the 5 aforementioned controllers.
+  When we attempted to train deep neural network controllers for pigeon models with static bodies using PPO and SAC with $r_{head\_stable\_manual\_reposition}$, we found that the agent trained on SAC had a more stable learning curve and a faster convergence rate than the agent trained on PPO.
+  Therefore, we determined that it would be more reliable to use SAC to obtain the desired results.

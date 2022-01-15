@@ -189,8 +189,8 @@ INPUT ./figures/frames/frames_004.png
 INPUT figures/frames/frames_005.png
 INPUT ./figures/frames/frames_005.png
 INPUT ./figures/frames/frames_005.png
-INPUT sections/analysis.tex
-INPUT sections/analysis.tex
+INPUT sections/discussion.tex
+INPUT sections/discussion.tex
 INPUT main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
@@ -198,6 +198,8 @@ INPUT append-1-1.tex
 INPUT append-1-1.tex
 INPUT append-1-2.tex
 INPUT append-1-2.tex
+INPUT append-2.tex
+INPUT append-2.tex
 INPUT main.aux
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
