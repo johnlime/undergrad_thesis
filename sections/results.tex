@@ -9,21 +9,40 @@
   % 60/5 * [10] = 300
 
 % summary of the results
-  % We summarize the behaviors exhibited by each experiment as stated in the previous chapter.
+  We summarize the behaviors exhibited by the pigeon models in each experiment, categorized by their body speeds and the reward functions the controllers were trained with.
 
-  % The pigeon model with a static body whose controller was trained using $r_{head\_stable\_manual\_reposition\_strict\_angle}$ managed to keep its head stationary as expected.
+  \begin{itemize}
+    \item Body speed 0; $r_{head\_stable\_manual\_reposition\_strict\_angle}$
+    \begin{description}
+      \item The pigeon model managed to keep its head stationary as expected.
+    \end{description}
 
-  % The pigeon model with the body speed of 1 whose controller was trained using $r_{head\_stable\_manual\_reposition\_strict\_angle}$
-    % initially struggled to control its head in a specific pattern or position.
-    % However, after 5 seconds, it managed to align the head within the radius $max\_offset$ around the manually set position $T$, resulting in a generation of trajectory that depicts a pattern of thrust and hold phases.
-    % The final 5 seconds of the footage depicts the head and the limbs getting stuck on the topside of the body.
+    \item Body speed 1; $r_{head\_stable\_manual\_reposition\_strict\_angle}$
+    \begin{description}
+      \item The pigeon model initially struggled to control its head in a specific pattern or position.
+      However, after 5 seconds, it managed to align the head within the radius $max\_offset$ around the manually set position $T$, resulting in a generation of trajectory that depicts a pattern of thrust and hold phases.
+      The final 5 seconds of the footage depicts the head and the limbs getting stuck on the topside of the body.
+    \end{description}
 
-  % The pigeon model with the body speed of 1 whose controller was trained using $r_{head\_stable\_manual\_reposition}$ produced similar results to the previous experiment, with the exception of the overall performance.
-  % Due to the less strict definition of the reward function, it generated a trajectory that resulted in the acquirement of larger return, and as a result, a better performance in producing the desired head-bobbing behavior.
-  % In particular, the timespan of the head following the manually-defined trajectory was longer than those seen in the previous experiment.
+    \item Body speed 1; $r_{head\_stable\_manual\_reposition}$
+    \begin{description}
+      \item The pigeon model produced similar results to the previous experiment, with the exception of the overall performance.
+      Due to the less strict definition of the reward function, it generated a trajectory that resulted in the acquirement of larger return, and as a result, a better performance in producing the desired head-bobbing behavior.
+      In particular, the timespan of the head following the manually-defined trajectory was longer than those seen in the previous experiment.
+    \end{description}
 
-  % 4. head wiggles relatively in the same position; similar to the baseline counterpart
-  % 5. head gradually leans down and backwards; as if it was following the stationary object
+    \item Body speed 0; $r_{fifty\_fifty}$
+    \begin{description}
+      \item The head of the model moved around in the vicinity of a single position, similar to the baseline counterpart.
+    \end{description}
+
+    \item Body speed 1; $r_{fifty\_fifty}$
+    \begin{description}
+      \item The head of the model gradually leaned down and backwards as if it were following the surrounding stationary object.
+    \end{description}
+
+  \end{itemize}
+
 
   \begin{figure}[H]
       \centering
