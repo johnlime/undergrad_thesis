@@ -1,20 +1,24 @@
 \chapter{Discussion}
 % The results indicate that
+  % regarding the behavior exhibited by the pigeon model with body speed 1 whose deep reinforcement learning controller was trained on $r_{fifty\_fifty}$
   % while the combination of visual stabilization and motion parallax are sufficient to generate a behavior where the pigeon's head is fixed in one position
   % insufficient to produce head-bobbing behaviors in moving bodies during forward locomotion
 
   % did not need to constantly thrust head forward to maximize Davies' equation depicting motion parallax between objects
     % visual stabilization with retinal cells capable of detecting movement in all directions is enough to maximize the sum of external objects' angular velocities within the retina
+    % Davies' equation only works when all objects within the retina are globally static and does not account for moving objects.
+    % Since the external objects in our experiment had objects moving forwards and backwards, such may have automatically increased the reward function depicting Davies' equation of motion parallax per timestep.
 
 
 % may need a state machine-like mechanism for replication of head-bob
-  %
+  % composed of the "hold phase" state and the "thrust phase" state
 % hierarchical control system
   % hierarchical reinforcement learning should be used for modeling the control system with this hypothesis
+% indicates that a hierarchical control system is embedded in pigeons' neurology.
 % pattern generating module or functionality, such as central pattern generators seen in the spinal cortex
 
 % head goes downwards during forward locomotion
-% lack of muscular strain penalty? (-> incremental modeling)
+% lack of muscular strain penalty?
 
-% higher details, such as an addition of muscular physics, for progression in incremental modeling
-% muscular simulation and their placements upon the skeletal model may lead to more stabilization? (cite Geijtenbeek)
+% needs higher details, such as an addition of muscular physics, and progression in incremental modeling
+% muscular simulation and their placements upon the skeletal model may lead to more stabilization (cite Geijtenbeek)
