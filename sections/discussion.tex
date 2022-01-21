@@ -1,12 +1,14 @@
 \chapter{Discussion}
-% The results indicate that
-  % regarding the behavior exhibited by the pigeon model with body speed 1 whose deep reinforcement learning controller was trained on $r_{fifty\_fifty}$
-  % while the combination of visual stabilization and motion parallax are sufficient to generate a behavior where the pigeon's head is fixed in one position
-  % insufficient to produce head-bobbing behaviors in moving bodies during forward locomotion
+% "results indicate that..."
+  % Examining the trajectory of each of the pigeon models' heads,
+  % the resulting behavior exhibited by the pigeon model with a fixed body, whose deep reinforcement learning controller was trained on $r_{fifty\_fifty}$, indicate that the combination of visual stabilization and motion parallax are sufficient to generate a behavior that fixes the position of the head, resembling the hold phase in pigeons.
 
-  % did not need to constantly thrust head forward to maximize Davies' equation depicting motion parallax between objects
-    % visual stabilization with retinal cells capable of detecting movement in all directions is enough to maximize the sum of external objects' angular velocities within the retina
-    % Davies' equation only works when all objects within the retina are globally static and does not account for moving objects.
+  % On the other hand, the resulting behavior exhibited by the pigeon model with body speed 1, whose deep reinforcement learning controller was trained on the same reward function, indicate that the 2 functionalities are insufficient to produce head-bobbing behaviors in moving bodies during forward locomotion, as he pigeon model did not need to periodically thrust its head forward to maximize Davies' equation depicting motion parallax between objects.
+
+  % Such results indicate that visual stabilization with retinal cells capable of detecting movement in all directions is enough to maximize the sum of external objects' angular velocities within the retina.
+    % Examining Davies' equation \ref{davies_motion_parallax}, it can be hypothesized that
+    % reinforcement learning controllers trained on reward function that reflect such function would only reproduce head-bobbing behaviors
+    % when all objects within the retina are globally static, since the equation does not account for the objects' velocities.
     % Since the external objects in our experiment had objects moving forwards and backwards, such may have automatically increased the reward function depicting Davies' equation of motion parallax per timestep.
 
 

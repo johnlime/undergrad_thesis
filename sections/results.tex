@@ -1,6 +1,6 @@
 \chapter{Results}
 
-% pre-figure explanation
+% figures for behavior renderings explanation
   We rendered the resulting behaviors produced by controllers trained on aforementioned reward functions and environments into images or frames.
   Combining the frames generated for each of the 1000 timesteps and setting as 60 frames per second resulted in 33.35 second videos.
   The time-lapses presented in Figures \ref{fig:manual_trajectory_body_speed_0}, \ref{fig:manual_trajectory_strict_body_speed_1}, \ref{fig:manual_trajectory_not_strict_body_speed_1}, \ref{fig:fifty_fifty_body_speed_0}, and \ref{fig:fifty_fifty_body_speed_1} were created by sampling every $300$ frames within the last 30 seconds of the video.
@@ -8,7 +8,7 @@
   The camera is locked to follow the pigeon's body.
   % 60/5 * [10] = 300
 
-% summary of the results
+% summary of the behavioral results per experiment
   We summarize the behaviors exhibited by the pigeon models in each experiment, categorized by their body speeds and the reward functions the controllers were trained with.
 
   \begin{itemize}
@@ -44,6 +44,7 @@
   \end{itemize}
 
 
+% figures of pigeon behavior renderings
   \begin{figure}[H]
       \centering
       \includegraphics[width=1\textwidth]{figures/frames/frames_001.png}
@@ -78,3 +79,5 @@
       \caption{Control of a pigeon model with the body speed of 1 trained on $r_{fifty\_fifty}$}
       \label{fig:fifty_fifty_body_speed_1}
   \end{figure}
+
+% figures of pigeon head trajectories
