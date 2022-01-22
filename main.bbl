@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{bohn2019deep}
 B{\o}hn, E., Coates, E.~M., Moe, S., and Johansen, T.~A.
@@ -6,6 +6,12 @@ B{\o}hn, E., Coates, E.~M., Moe, S., and Johansen, T.~A.
   proximal policy optimization.
 \newblock In {\em 2019 International Conference on Unmanned Aircraft Systems
   (ICUAS)}, IEEE (2019), 523--533.
+
+\bibitem{brockman2016openai}
+Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang,
+  J., and Zaremba, W.
+\newblock Openai gym.
+\newblock {\em arXiv preprint arXiv:1606.01540\/} (2016).
 
 \bibitem{davies1988head}
 DAVIES, M.~N., and GREEN, P.~R.
@@ -43,6 +49,11 @@ Haarnoja, T., Zhou, A., Hartikainen, K., Tucker, G., Ha, S., Tan, J., Kumar,
   V., Zhu, H., Gupta, A., Abbeel, P., et~al.
 \newblock Soft actor-critic algorithms and applications.
 \newblock {\em arXiv preprint arXiv:1812.05905\/} (2018).
+
+\bibitem{openai_2016}
+OpenAI.
+\newblock Getting started with gym.
+\newblock \url{https://gym.openai.com/docs/}, 2016.
 
 \bibitem{schulman2017proximal}
 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., and Klimov, O.

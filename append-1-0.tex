@@ -1,7 +1,5 @@
 \section{OpenAI Gym for Simplified Model of Pigeons' Head Control}
-% written in Python
-
-% reference to OpenAI Gym library site or paper
+Our OpenAI Gym \cite{brockman2016openai} environments \lstinline|PigeonEnv3Joints| and \lstinline|PigeonRetinalEnv| mentioned in Experiments are written in Python. Implementation for running and testing our environments should be referred to the documentation for OpenAI Gym \cite{openai_2016}.
 
 \subsection{Usage}
 \begin{lstlisting}
@@ -35,15 +33,15 @@ PigeonRetinalEnv(self,
 Parallel to \lstinline|PigeonEnv3Joints|, each of the following \lstinline|reward_code| are assigned to their respective reward functions.
 \begin{itemize}
   \item \lstinline|"retinal_stabilization"|
-      \begin{description}
+      \begin{itemize}
           \item Implementation of $r_{head\_stabilize}$
           \item Depicts the preliminary hypothesis regarding the functionality of retinal stabilization during the hold phase.
-      \end{description}
+      \end{itemize}
   \item \lstinline|"motion_parallax"|
-      \begin{description}
+      \begin{itemize}
           \item Implementation of $r_{motion\_parallax}$
           \item Depicts the preliminary hypothesis regarding the functionality of motion parallax induced depth perception during the thrust phase.
-      \end{description}
+      \end{itemize}
   \item \lstinline|"fifty_fifty"|
       \begin{itemize}
           \item Implementation of $r_{head\_stable\_manual\_reposition\_strict\_angle}$
