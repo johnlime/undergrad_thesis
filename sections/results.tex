@@ -1,13 +1,4 @@
 \chapter{Results}
-
-% figures for behavior renderings explanation
-  We rendered the resulting behaviors produced by controllers trained on aforementioned reward functions and environments into images or frames.
-  Combining the frames generated for each of the 1000 timesteps and setting as 60 frames per second resulted in 33.35 second videos.
-  The time-lapses presented in Figures \ref{fig:manual_trajectory_body_speed_0}, \ref{fig:manual_trajectory_strict_body_speed_1}, \ref{fig:manual_trajectory_not_strict_body_speed_1}, \ref{fig:fifty_fifty_body_speed_0}, and \ref{fig:fifty_fifty_body_speed_1} were created by sampling every $300$ frames within the last 30 seconds of the video.
-  The frames' sequential order is from the top left to the bottom right.
-  The camera is locked to follow the pigeon's body.
-  % 60/5 * [10] = 300
-
 % summary of the behavioral results per experiment
   We summarize the behaviors exhibited by the pigeon models in each experiment, categorized by their body speeds and the reward functions the controllers were trained with.
 
@@ -43,6 +34,16 @@
 
   \end{itemize}
 
+% raw trajectories
+  Tables noting the trajectories of positions of the pigeons' heads, their angles, and the position of the bodies along the x-axis for each experiment are in the Appendix.
+
+% figures for behavior renderings explanation
+  We rendered the resulting behaviors produced by controllers trained on aforementioned reward functions and environments into images or frames.
+  Combining the frames generated for each of the 1000 timesteps and setting as 60 frames per second resulted in 33.35 second videos.
+  The time-lapses presented in Figures \ref{fig:manual_trajectory_body_speed_0}, \ref{fig:manual_trajectory_strict_body_speed_1}, \ref{fig:manual_trajectory_not_strict_body_speed_1}, \ref{fig:fifty_fifty_body_speed_0}, and \ref{fig:fifty_fifty_body_speed_1} were created by sampling every $300$ frames within the last 30 seconds of the video.
+  The frames' sequential order is from the top left to the bottom right.
+  The camera is locked to follow the pigeon's body.
+  % 60/5 * [10] = 300
 
 % figures of pigeon behavior renderings
   \begin{figure}[H]
