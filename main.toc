@@ -22,8 +22,10 @@
 \contentsline {chapter}{References}{24}{}%
 \contentsline {chapter}{Appendix}{26}{}%
 \contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{26}{}%
-\contentsline {subsection}{\numberline {A.1}Manually Defined Head Trajectory (Baseline)}{26}{}%
-\contentsline {subsection}{\numberline {A.2}Pigeons' Head Control Based on Retinal Inputs}{37}{}%
-\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{43}{}%
-\contentsline {subsection}{\numberline {B.1}Hyperparameters}{43}{}%
-\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{43}{}%
+\contentsline {subsection}{\numberline {A.1}Usage}{26}{}%
+\contentsline {subsection}{\numberline {A.2}Dependencies (Anaconda YAML File)}{27}{}%
+\contentsline {subsection}{\numberline {A.3}Manually Defined Head Trajectory (Baseline)}{29}{}%
+\contentsline {subsection}{\numberline {A.4}Pigeons' Head Control Based on Retinal Inputs}{39}{}%
+\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{46}{}%
+\contentsline {subsection}{\numberline {B.1}Hyperparameters}{46}{}%
+\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{46}{}%
