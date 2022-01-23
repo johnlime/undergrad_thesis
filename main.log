@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  23 JAN 2022 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  23 JAN 2022 13:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -379,6 +379,18 @@ Overfull \hbox (107.56258pt too wide) in paragraph at lines 8--8
 n $\OML/cmm/m/it/12 r[]$ 
  []
 
+
+Overfull \hbox (6.41795pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/12 of 1 trained on $\OML/cmm/m/it/12 r[]$ \OT1/cmr/m/n/12 with $\
+OML/cmm/m/it/12 max[]offset \OT1/cmr/m/n/12 = 
+ []
+
+
+Overfull \hbox (99.55989pt too wide) in paragraph at lines 15--15
+ [][] []\OT1/cmr/m/n/12 An al-tered Fig-ure 5.7[], where tra-jec-to-ries rep-re
+-sent-ing $\OML/cmm/m/it/12 r[]$ 
+ []
+
 )
 \tf@lof=\write5
 \openout5 = `main.lof'.
@@ -438,39 +450,39 @@ Overfull \hbox (48.4573pt too wide) in paragraph at lines 67--69
 [14]) (./sections/results.tex [15]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--8
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
+Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
  []
 
 [16
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
  []
 
 <figures/frames/frames_001.png, id=90, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_001.png Graphic file (type png)
 <use figures/frames/frames_001.png>
-Package pdftex.def Info: figures/frames/frames_001.png  used on input line 49.
+Package pdftex.def Info: figures/frames/frames_001.png  used on input line 55.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 []\OT1/cmr/m/n/10 Figure 5.1: Con-trol of a pi-geon model with a static body tr
 ained on
  []
@@ -479,10 +491,10 @@ ained on
 <figures/frames/frames_002.png, id=94, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_002.png Graphic file (type png)
 <use figures/frames/frames_002.png>
-Package pdftex.def Info: figures/frames/frames_002.png  used on input line 56.
+Package pdftex.def Info: figures/frames/frames_002.png  used on input line 62.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
-Underfull \hbox (badness 4467) in paragraph at lines 57--57
+Underfull \hbox (badness 4467) in paragraph at lines 63--63
 []\OT1/cmr/m/n/10 Figure 5.2: Con-trol of a pi-geon model with the body speed o
 f 1 trained on
  []
@@ -491,10 +503,10 @@ f 1 trained on
 <figures/frames/frames_003.png, id=101, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_003.png Graphic file (type png)
 <use figures/frames/frames_003.png>
-Package pdftex.def Info: figures/frames/frames_003.png  used on input line 63.
+Package pdftex.def Info: figures/frames/frames_003.png  used on input line 69.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
-Underfull \hbox (badness 4467) in paragraph at lines 64--64
+Underfull \hbox (badness 4467) in paragraph at lines 70--70
 []\OT1/cmr/m/n/10 Figure 5.3: Con-trol of a pi-geon model with the body speed o
 f 1 trained on
  []
@@ -503,25 +515,63 @@ f 1 trained on
 <figures/frames/frames_004.png, id=107, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_004.png Graphic file (type png)
 <use figures/frames/frames_004.png>
-Package pdftex.def Info: figures/frames/frames_004.png  used on input line 70.
+Package pdftex.def Info: figures/frames/frames_004.png  used on input line 76.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
  [20 <./figures/frames/frames_003.png>]
 <figures/frames/frames_005.png, id=112, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_005.png Graphic file (type png)
 <use figures/frames/frames_005.png>
-Package pdftex.def Info: figures/frames/frames_005.png  used on input line 77.
+Package pdftex.def Info: figures/frames/frames_005.png  used on input line 83.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
-)
-(./sections/discussion.tex [21 <./figures/frames/frames_004.png> <./figures/fra
-mes/frames_005.png>]
+
+[21 <./figures/frames/frames_004.png> <./figures/frames/frames_005.png>]
+<figures/head_tracking_results/pigeon_bs_0.png, id=118, 939.51pt x 689.7268pt>
+File: figures/head_tracking_results/pigeon_bs_0.png Graphic file (type png)
+<use figures/head_tracking_results/pigeon_bs_0.png>
+Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_0.png  used on
+ input line 97.
+(pdftex.def)             Requested size: 415.4104pt x 304.96466pt.
+<figures/head_tracking_results/pigeon_bs_1_all.png, id=119, 938.60663pt x 686.5
+65pt>
+File: figures/head_tracking_results/pigeon_bs_1_all.png Graphic file (type png)
+
+<use figures/head_tracking_results/pigeon_bs_1_all.png>
+Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_1_all.png  use
+d on input line 104.
+(pdftex.def)             Requested size: 415.4104pt x 303.86pt.
+
+[22 <./figures/head_tracking_results/pigeon_bs_0.png>]
+Overfull \hbox (36.86742pt too wide) in paragraph at lines 114--116
+\OT1/cmr/m/n/12 of the tra-jec-to-ries 5.8[], where the tra-jec-tory rep-re-sen
+t-ing $\OML/cmm/m/it/12 r[]$
+ []
+
+[23 <./figures/head_tracking_results/pigeon_bs_1_all.png>]
+<figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png, id=
+128, 938.60663pt x 686.565pt>
+File: figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png
+ Graphic file (type png)
+<use figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png>
+
+Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_1_all_trimmed_
+250_550_300_550.png  used on input line 119.
+(pdftex.def)             Requested size: 415.4104pt x 303.86pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]\OT1/cmr/m/n/10 Figure 5.8: An al-tered Fig-ure 5.7[], where tra-jec-to-ries 
+rep-re-sent-ing
+ []
+
+) (./sections/discussion.tex [24 <./figures/head_tracking_results/pigeon_bs_1_a
+ll_trimmed_250_550_300_550.png>]
 Chapter 6.
-) [22
+) [25
 
-] [23
+] [26
 
-] (./main.bbl [24
+] (./main.bbl [27
 
-]) [25] (./append-1-0.tex
+]) [28] (./append-1-0.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
@@ -531,21 +581,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-[26
+[29
 
 ]
 Overfull \hbox (32.81938pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Sum of re-wards pro-duced by [][][][][][] and [][][]
  []
 
-[27] [28]) (./append-1-1.tex [29] [30] [31] [32] [33] [34] [35] [36] [37]
-[38]) (./append-1-2.tex [39] [40] [41] [42] [43] [44]) [45] (./append-2.tex)
-[46] (./main.aux) ) 
+[30] [31]) (./append-1-1.tex [32] [33] [34] [35] [36] [37] [38] [39] [40]
+[41]) (./append-1-2.tex [42] [43] [44] [45] [46] [47]) [48] (./append-2.tex)
+[49] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5408 strings out of 478994
- 72952 string characters out of 5858184
- 536802 words of memory out of 5000000
- 22764 multiletter control sequences out of 15000+600000
+ 5430 strings out of 478994
+ 74012 string characters out of 5858184
+ 536835 words of memory out of 5000000
+ 22782 multiletter control sequences out of 15000+600000
  413518 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,74p,1073b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -567,10 +617,10 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (52 pages, 2005872 bytes).
+Output written on main.pdf (55 pages, 2486295 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
+ 273 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

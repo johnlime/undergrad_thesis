@@ -35,6 +35,7 @@
 
   \end{itemize}
 
+\subsection{Learning Curves}
 % LEARNING CURVES===!!!
 
 
@@ -88,9 +89,9 @@
 % figures of pigeon head trajectories
 \section{Head Trajectories}
 % explanation
-  % We additionally visualized the trajectories of heads and bodies of each pigeon model. With this method, we can compare the resulting behaviors of the controlled pigeons between the reward functions they were trained on.
+  We additionally visualized the trajectories of heads and bodies of each pigeon model. With this method, we can compare the resulting behaviors of the controlled pigeons between the reward functions they were trained on.
 
-  % We coupled the trajectories produced by pigeons with the same body speeds in \ref{fig:head_bs_0} and \ref{fig:head_bs_1_all}.
+  We coupled the trajectories produced by pigeons with the same body speeds in \ref{fig:head_bs_0} and \ref{fig:head_bs_1_all}.
 
   \begin{figure}[H]
       \centering
@@ -106,13 +107,13 @@
       \label{fig:head_bs_1_all}
   \end{figure}
 
-  % For pigeon models with static bodies, the manually-defined trajectory set by $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and the trajectory that reflects the preliminary hypotheses set by $r_{fifty\_fifty}$ are similar: they both attempt to stabilize the head in one location. The trajectory produced by the controller trained on $r_{fifty\_fifty}$, albeit with more variance, has such trait as an emergent behavior.
+  For pigeon models with static bodies, the manually-defined trajectory set by $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and the trajectory that reflects the preliminary hypotheses set by $r_{fifty\_fifty}$ are similar: they both attempt to stabilize the head in one location. The trajectory produced by the controller trained on $r_{fifty\_fifty}$, albeit with more variance, has such trait as an emergent behavior.
 
-  % For pigeon models with body speeds of 1, as mentioned beforehand, pigeon models whose controllers were trained using $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and $r_{head\_stable\_manual\_reposition}$ struggle to maintain their heads to follow their target locations $T$.
-  % The manually-defined trajectories set by the two reward functions reflect such behaviors.
+  For pigeon models with body speeds of 1, as mentioned beforehand, pigeon models whose controllers were trained using $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and $r_{head\_stable\_manual\_reposition}$ struggle to maintain their heads to follow their target locations $T$.
+  The manually-defined trajectories set by the two reward functions reflect such behaviors.
 
-  % Taking these issues into consideration, we present an alternative visualization of the trajectories \ref{fig:head_bs_1_all_trimmed}, where the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is trimmed to only show from 250 to 500 timesteps and the trajectory representing $r_{head\_stable\_manual\_reposition}$ is trimmed to only show from 300 to 500 timesteps.
-  % The two manually-defined trajectories now share similar paths of head-bobbing; however even with such adjustments, it is evident that the trajectory produced by the controller trained on $r_{fifty\_fifty}$ is vastly different from the 2 prior trajectories.
+  Taking these issues into consideration, we present an alternative visualization of the trajectories \ref{fig:head_bs_1_all_trimmed}, where the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is trimmed to only show from 250 to 500 timesteps and the trajectory representing $r_{head\_stable\_manual\_reposition}$ is trimmed to only show from 300 to 500 timesteps.
+  The two manually-defined trajectories now share similar paths of head-bobbing; however even with such adjustments, it is evident that the trajectory produced by the controller trained on $r_{fifty\_fifty}$ is vastly different from the 2 prior trajectories.
 
   \begin{figure}[H]
       \centering

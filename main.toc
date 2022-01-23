@@ -17,15 +17,18 @@
 \contentsline {section}{\numberline {4.2.}Experiment Environments}{12}{}%
 \contentsline {section}{\numberline {4.3.}Reinforcement Learning}{15}{}%
 \contentsline {chapter}{\numberline {5}Results}{16}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{22}{}%
-\contentsline {chapter}{Acknowledgements}{23}{}%
-\contentsline {chapter}{References}{24}{}%
-\contentsline {chapter}{Appendix}{26}{}%
-\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{26}{}%
-\contentsline {subsection}{\numberline {A.1}Usage}{26}{}%
-\contentsline {subsection}{\numberline {A.2}Dependencies (Anaconda YAML File)}{27}{}%
-\contentsline {subsection}{\numberline {A.3}Manually Defined Head Trajectory (Baseline)}{29}{}%
-\contentsline {subsection}{\numberline {A.4}Pigeons' Head Control Based on Retinal Inputs}{39}{}%
-\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{46}{}%
-\contentsline {subsection}{\numberline {B.1}Hyperparameters}{46}{}%
-\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{46}{}%
+\contentsline {section}{\numberline {5.1.}Summary}{16}{}%
+\contentsline {section}{\numberline {5.2.}Behavior Renderings}{17}{}%
+\contentsline {section}{\numberline {5.3.}Head Trajectories}{22}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{25}{}%
+\contentsline {chapter}{Acknowledgements}{26}{}%
+\contentsline {chapter}{References}{27}{}%
+\contentsline {chapter}{Appendix}{29}{}%
+\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{29}{}%
+\contentsline {subsection}{\numberline {A.1}Usage}{29}{}%
+\contentsline {subsection}{\numberline {A.2}Dependencies (Anaconda YAML File)}{30}{}%
+\contentsline {subsection}{\numberline {A.3}Manually Defined Head Trajectory (Baseline)}{32}{}%
+\contentsline {subsection}{\numberline {A.4}Pigeons' Head Control Based on Retinal Inputs}{42}{}%
+\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{49}{}%
+\contentsline {subsection}{\numberline {B.1}Hyperparameters}{49}{}%
+\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{49}{}%
