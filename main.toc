@@ -18,17 +18,17 @@
 \contentsline {section}{\numberline {4.3.}Reinforcement Learning}{15}{}%
 \contentsline {chapter}{\numberline {5}Results}{16}{}%
 \contentsline {section}{\numberline {5.1.}Summary}{16}{}%
-\contentsline {section}{\numberline {5.2.}Behavior Renderings}{17}{}%
-\contentsline {section}{\numberline {5.3.}Head Trajectories}{22}{}%
-\contentsline {chapter}{\numberline {6}Discussion}{25}{}%
-\contentsline {chapter}{Acknowledgements}{26}{}%
-\contentsline {chapter}{References}{27}{}%
-\contentsline {chapter}{Appendix}{29}{}%
-\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{29}{}%
-\contentsline {subsection}{\numberline {A.1}Usage}{29}{}%
-\contentsline {subsection}{\numberline {A.2}Dependencies (Anaconda YAML File)}{30}{}%
-\contentsline {subsection}{\numberline {A.3}Manually Defined Head Trajectory (Baseline)}{32}{}%
-\contentsline {subsection}{\numberline {A.4}Pigeons' Head Control Based on Retinal Inputs}{42}{}%
-\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{49}{}%
-\contentsline {subsection}{\numberline {B.1}Hyperparameters}{49}{}%
-\contentsline {subsection}{\numberline {B.2}Learning Curves per Experiment}{49}{}%
+\contentsline {subsection}{\numberline {5.1.1}Learning Curves of Policies Controlling the Pigeon Models}{17}{}%
+\contentsline {section}{\numberline {5.2.}Behavior Renderings}{20}{}%
+\contentsline {section}{\numberline {5.3.}Head Trajectories}{24}{}%
+\contentsline {chapter}{\numberline {6}Discussion}{28}{}%
+\contentsline {chapter}{Acknowledgements}{29}{}%
+\contentsline {chapter}{References}{30}{}%
+\contentsline {chapter}{Appendix}{32}{}%
+\contentsline {section}{\numberline {A.}OpenAI Gym for Simplified Model of Pigeons' Head Control}{32}{}%
+\contentsline {subsection}{\numberline {A.1}Usage}{32}{}%
+\contentsline {subsection}{\numberline {A.2}Dependencies (Anaconda YAML File)}{33}{}%
+\contentsline {subsection}{\numberline {A.3}Manually Defined Head Trajectory (Baseline)}{35}{}%
+\contentsline {subsection}{\numberline {A.4}Pigeons' Head Control Based on Retinal Inputs}{45}{}%
+\contentsline {section}{\numberline {B.}Details on Soft Actor Critic Training}{52}{}%
+\contentsline {subsection}{\numberline {B.1}Hyperparameters}{52}{}%
