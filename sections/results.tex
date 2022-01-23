@@ -35,8 +35,49 @@
 
   \end{itemize}
 
-\subsection{Learning Curves}
-% LEARNING CURVES===!!!
+\subsection{Learning Curves of Policies Controlling the Pigeon Models}
+  We examine the learning curves of the returns acquired by the policies trained for each experiment.
+  Figures \ref{fig:learning_rate_manual_bs_0}, \ref{fig:learning_rate_manual_strict_bs_1}, \ref{fig:learning_rate_manual_not_strict_bs_1}, \ref{fig:learning_rate_fifty_fifty_bs_0}, and \ref{fig:learning_rate_fifty_fifty_bs_1} present the exploration and evaluation returns, where the exploration returns are returns acquired by policies that output stochastic distributions of actions while the evaluation returns are such acquired by policies that output deterministic values for actions.
+
+  Examining at the figures, all policies, or in this case the controllers for the pigeon models, converge to a return in the span of 3000 epochs.
+  Regarding the controllers trained to follow manually-defined trajectories on a pigeon model with the body speed of 1, it is shown that more return are acquired for policy trained on $r_{head\_stable\_manual\_reposition}$ than $r_{head\_stable\_manual\_reposition\_strict\_angle}$.
+  It can therefore be concluded that it is more reliable to use the trajectory produced by the controller trained on the former reward function than the latter reward function.
+
+% figures of learning rates (returns) of each experiment
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/learning_curves/manual_bs_0.png}
+      \caption{Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 0$ and $max\_offset = 0.5$}
+      \label{fig:learning_rate_manual_bs_0}
+  \end{figure}
+
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/learning_curves/manual_strict_bs_1.png}
+      \caption{Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 1$ and $max\_offset = 1.0$}
+      \label{fig:learning_rate_manual_strict_bs_1}
+  \end{figure}
+
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/learning_curves/manual_not_strict_bs_1.png}
+      \caption{Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition}$ with $body\_speed = 1$ and $max\_offset = 1.0$}
+      \label{fig:learning_rate_manual_not_strict_bs_1}
+  \end{figure}
+
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/learning_curves/fifty_fifty_bs_0.png}
+      \caption{Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 0$}
+      \label{fig:learning_rate_fifty_fifty_bs_0}
+  \end{figure}
+
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/learning_curves/fifty_fifty_bs_1.png}
+      \caption{Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 1$}
+      \label{fig:learning_rate_fifty_fifty_bs_1}
+  \end{figure}
 
 
 % raw trajectories will NOT be included!
@@ -54,21 +95,21 @@
   \begin{figure}[H]
       \centering
       \includegraphics[width=1\textwidth]{figures/frames/frames_001.png}
-      \caption{Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}
+      \caption{Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}
       \label{fig:manual_trajectory_body_speed_0}
   \end{figure}
 
   \begin{figure}[H]
       \centering
       \includegraphics[width=1\textwidth]{figures/frames/frames_002.png}
-      \caption{Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}
+      \caption{Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}
       \label{fig:manual_trajectory_strict_body_speed_1}
   \end{figure}
 
   \begin{figure}[H]
       \centering
       \includegraphics[width=1\textwidth]{figures/frames/frames_003.png}
-      \caption{Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicate the margin of error around the target head location defined by $max\_offset$.}
+      \caption{Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}
       \label{fig:manual_trajectory_not_strict_body_speed_1}
   \end{figure}
 
@@ -123,3 +164,11 @@
   \end{figure}
 
 % isolate $r_{head\_stable\_manual\_reposition}$ and $r_{fifty\_fifty}$
+  Since we have already determined that the controller trained on $r_{head\_stable\_manual\_reposition}$ produces better results than the alternative, we can additionally refer to Figure \ref{fig:head_bs_1_closest_trimmed} and reach the same conclusion.
+
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth]{figures/head_tracking_results/pigeon_bs_1_vs_closest_trimmed_300_550.png}
+      \caption{Same as Figure \ref{fig:head_bs_1_all_trimmed}, except the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is removed to only show the trajectory representing $r_{head\_stable\_manual\_reposition}$ as baseline}
+      \label{fig:head_bs_1_closest_trimmed}
+  \end{figure}
