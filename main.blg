@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: acm-sigchi.bst
 Database file #1: ref.bib
-You've used 12 entries,
+You've used 14 entries,
             2268 wiz_defined-function locations,
-            604 strings with 6327 characters,
-and the built_in function-call counts, 4466 in all, are:
-= -- 426
-> -- 269
+            613 strings with 6795 characters,
+and the built_in function-call counts, 5398 in all, are:
+= -- 514
+> -- 328
 < -- 0
-+ -- 111
-- -- 98
-* -- 355
-:= -- 752
-add.period$ -- 36
-call.type$ -- 12
-change.case$ -- 84
++ -- 135
+- -- 120
+* -- 425
+:= -- 899
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 129
-empty$ -- 311
-format.name$ -- 98
-if$ -- 906
+cite$ -- 14
+duplicate$ -- 163
+empty$ -- 374
+format.name$ -- 120
+if$ -- 1103
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 11
-newline$ -- 63
-num.names$ -- 24
-pop$ -- 80
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 99
 preamble$ -- 1
-purify$ -- 72
+purify$ -- 87
 quote$ -- 0
-skip$ -- 97
+skip$ -- 125
 stack$ -- 0
-substring$ -- 255
-swap$ -- 30
+substring$ -- 305
+swap$ -- 42
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 56
 warning$ -- 0
-while$ -- 40
-width$ -- 14
-write$ -- 120
+while$ -- 47
+width$ -- 16
+write$ -- 140

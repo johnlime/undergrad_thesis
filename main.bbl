@@ -19,6 +19,11 @@ DAVIES, M.~N., and GREEN, P.~R.
   perception in the pigeon.
 \newblock {\em Journal of Experimental Biology 138}, 1 (1988), 71--91.
 
+\bibitem{eysenbach2018diversity}
+Eysenbach, B., Gupta, A., Ibarz, J., and Levine, S.
+\newblock Diversity is all you need: Learning skills without a reward function.
+\newblock {\em arXiv preprint arXiv:1802.06070\/} (2018).
+
 \bibitem{frost1978optokinetic}
 Frost, B.
 \newblock The optokinetic basis of head-bobbing in the pigeon.
@@ -64,6 +69,13 @@ OpenAI.
 Schulman, J., Wolski, F., Dhariwal, P., Radford, A., and Klimov, O.
 \newblock Proximal policy optimization algorithms.
 \newblock {\em arXiv preprint arXiv:1707.06347\/} (2017).
+
+\bibitem{vezhnevets2017feudal}
+Vezhnevets, A.~S., Osindero, S., Schaul, T., Heess, N., Jaderberg, M., Silver,
+  D., and Kavukcuoglu, K.
+\newblock Feudal networks for hierarchical reinforcement learning.
+\newblock In {\em International Conference on Machine Learning}, PMLR (2017),
+  3540--3549.
 
 \bibitem{webb2000does}
 Webb, B.

@@ -23,10 +23,15 @@
   Additionally, muscular simulation and their placements within the physical model may lead to more stabilization in its movements, as seen in Geijtenbeek's simulations of models of bipedal virtual creatures with muscular simulations \cite{geijtenbeek2013flexible}, where an optimization of placements of muscles using covariance matrix adaptation evolution strategy (CMA-ES) resulted in higher stability in the models' locomotion.
   Following such observation, we can hypothesize that a lack of muscular strain penalty in our pigeon model may be the cause in the discrepancies. As a progression in incremental modeling, an addition of muscular physics would be appropriate.
 
-% may need a state machine-like mechanism for replication of head-bob
-  % composed of the "hold phase" state and the "thrust phase" state
-% hierarchical control system
-  % hierarchical reinforcement learning should be used for modeling the control system with this hypothesis
-  % examples of this working (DIAYN/DADS; Atari difficult game w FeUdal)
-% indicates that a hierarchical control system is embedded in pigeons' neurology.
+
+% additional detail to add in our incremental modeling process is a hierarchical control system.
+  The lack of emergent behaviors that resemble phases in pigeon models controlled by non-hierarchical reinforcement learning policies trained on $r_{fifty\_fifty}$, indicates that a hierarchical control system may be embedded in pigeons' neurology that activates when they exhibit head-bobbing behaviors.
+  An addition of a high-level state machine-like control mechanism composed of a "hold phase" state and a "thrust phase" state may be a viable approach for replicating such behaviors.
+  The high-level controller can output values that indicate the appropriate phase for the pigeon model to execute, such as a binary digit where 1 represents the hold phase and 0 represents the thrust phase.
+
+  Hierarchical reinforcement learning could be used for modeling such control systems.
+  Preliminary research have examples of successfully accomplishing complex tasks that require sequential execution of multiple smaller tasks.
+  Diversity Is All You Need \cite{eysenbach2018diversity} can execute sequential tasks such as running, jumping over hurdles, and resuming running, by acquiring skills, or primitive tasks, in the low-level policy and executing them in order using the high-level policy.
+  Similarly, FeUdal Networks \cite{vezhnevets2017feudal} have shown to complete Montezuma's Revenge, an ATARI game that was deemed to be difficult to complete without using control systems that can execute sequential tasks.
+
 % pattern generating module or functionality, such as central pattern generators seen in the spinal cortex

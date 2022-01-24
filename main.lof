@@ -20,4 +20,4 @@
 \contentsline {figure}{\numberline {5.13}{\ignorespaces An altered Figure 5.12\hbox {}, where trajectories representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and $r_{head\_stable\_manual\_reposition}$ are trimmed to only show their head-bobbing behaviors}}{26}{}%
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Same as Figure 5.13\hbox {}, except the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is removed to only show the trajectory representing $r_{head\_stable\_manual\_reposition}$ as baseline}}{27}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Soft Actor Critic algorithm as seen in \cite {haarnoja2018soft}}}{53}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Soft Actor Critic algorithm as seen in \cite {haarnoja2018soft}}}{54}{}%
