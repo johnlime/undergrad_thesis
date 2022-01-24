@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  23 JAN 2022 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  24 JAN 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,13 +674,13 @@ Underfull \hbox (badness 1622) in paragraph at lines 172--172
 ll_trimmed_250_550_300_550.png>] [27 <./figures/head_tracking_results/pigeon_bs
 _1_vs_closest_trimmed_300_550.png>]
 Chapter 6.
-) [28
+[28
 
-] [29
+]) [29] [30
 
-] (./main.bbl [30
+] (./main.bbl [31
 
-]) [31] (./append-1-0.tex
+]) [32] (./append-1-0.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
@@ -690,46 +690,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-[32
+[33
 
 ]
 Overfull \hbox (32.81938pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Sum of re-wards pro-duced by [][][][][][] and [][][]
  []
 
-[33] [34]) (./append-1-1.tex [35] [36] [37] [38] [39] [40] [41] [42] [43]
-[44]) (./append-1-2.tex [45] [46] [47] [48] [49] [50]) [51] (./append-2.tex)
-[52] (./main.aux) ) 
+[34] [35]) (./append-1-1.tex [36] [37] [38] [39] [40] [41] [42] [43] [44]
+[45]) (./append-1-2.tex [46] [47] [48] [49] [50] [51]) [52] (./append-2.tex
+<figures/external/sac_algorithm.png, id=240, 738.76pt x 587.19376pt>
+File: figures/external/sac_algorithm.png Graphic file (type png)
+<use figures/external/sac_algorithm.png>
+Package pdftex.def Info: figures/external/sac_algorithm.png  used on input line
+ 8.
+(pdftex.def)             Requested size: 415.4104pt x 330.1792pt.
+
+[53 <./figures/external/sac_algorithm.png>]) [54] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5473 strings out of 478994
- 75984 string characters out of 5858184
- 536906 words of memory out of 5000000
- 22818 multiletter control sequences out of 15000+600000
+ 5481 strings out of 478994
+ 76226 string characters out of 5858184
+ 536917 words of memory out of 5000000
+ 22824 multiletter control sequences out of 15000+600000
  413518 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,74p,1073b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super
-/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
-b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (59 pages, 4318369 bytes).
+{/usr/local/tex
+live/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts
+/type1/public/cm-super/sfrm1200.pfb>
+Output written on main.pdf (61 pages, 4472311 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+ 306 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

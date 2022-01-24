@@ -5,12 +5,12 @@ In the paper which proposed the soft actor critic alorithm \cite{haarnoja2018sof
 
   \begin{figure}[H]
       \centering
-      \includegraphics[width=1\textwidth / 2]{figures/external/sac_algorithm.png}
+      \includegraphics[width=1\textwidth]{figures/external/sac_algorithm.png}
       \caption{Soft Actor Critic algorithm as seen in \cite{haarnoja2018soft}}
       \label{fig:sac_algorithm}
   \end{figure}
 
-The soft actor critic algorithm consists of 3 deep neural networks: a state value function $V$, a state-action value function $Q$, and a policy $\pi$. In \{fig:sac_algorithm}, the parameters of the functions, or in this case their weight values, are set as $\psi$, $\theta$, and $\phi$ respectively. Each deep neural network has one hidden layer that consists of 256 neurons.
+The soft actor critic algorithm consists of 3 deep neural networks: a state value function $V$, a state-action value function $Q$, and a policy $\pi$. In \ref{fig:sac_algorithm}, the parameters of the functions, or in this case their weight values, are set as $\psi$, $\theta$, and $\phi$ respectively. Each deep neural network has one hidden layer that consists of 256 neurons.
 
 The learning rates of each deep neural network are set as the following.
   \begin{itemize}
@@ -27,7 +27,7 @@ We trained our policies using batch training, where we preserve a set size of tr
     \item Environment steps per iteration: 1000
     \item Gradient steps per iteration: 1000
     \item Batch size: 256
-    \item Replay buffer size: 1.0 * 10^6
+    \item Replay buffer size: $1.0 \times 10^6$
   \end{itemize}
 
 Trajectories of states and actions totaling 5000 steps per epoch for determining the average return for evaluation.
