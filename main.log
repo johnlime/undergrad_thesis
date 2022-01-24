@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  24 JAN 2022 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  24 JAN 2022 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -708,10 +708,10 @@ Package pdftex.def Info: figures/external/sac_algorithm.png  used on input line
 
 [53 <./figures/external/sac_algorithm.png>]) [54] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5481 strings out of 478994
- 76226 string characters out of 5858184
- 536917 words of memory out of 5000000
- 22824 multiletter control sequences out of 15000+600000
+ 5482 strings out of 478994
+ 76251 string characters out of 5858184
+ 536921 words of memory out of 5000000
+ 22825 multiletter control sequences out of 15000+600000
  413518 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,74p,1073b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -734,7 +734,7 @@ nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (61 pages, 4472311 bytes).
+Output written on main.pdf (61 pages, 4474488 bytes).
 PDF statistics:
  306 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams

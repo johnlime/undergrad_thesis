@@ -12,17 +12,16 @@
 % fifty_fifty
   One possible argument against our claim can be pointed to our decision to weigh $r_{head\_stabilize}$ and $r_{motion\_parallax}$ equally for the reward that the policy or controller representing preliminary hypotheses $r_{fifty\_fifty}$. One could argue that by changing the weights, it may be possible to produce different behaviors than those shown in the results.
   Specifically, by assigning a larger weight value for $r_{head\_stabilize}$ than that for $r_{motion\_parallax}$, one could expect a pigeon model with the body speed of 1 to reflect the task of constricting the global position of its head and produce hold phases while occasionally moving the head to induce motion parallax.
-  However, considering that the maximum return for $r_{head\_stabilize}$ is 0 and the pigeon whose controller was trained on $r_{fifty\_fifty}$ still managed to produce high positive returns as seen in Figure \ref{fig:learning_rate_fifty_fifty_bs_1} , it can be inferred that penalizing movement of the head would not change the resulting behavior.
+  However, considering that the maximum return for $r_{head\_stabilize}$ is 0 and the pigeon whose controller was trained on $r_{fifty\_fifty}$ still managed to produce high positive returns (Figure \ref{fig:learning_rate_fifty_fifty_bs_1}) , it can be inferred that penalizing movement of the head would not change the resulting behavior.
   Therefore, factors other than static visual stabilization $r_{head\_stabilize}$ and motion parallax induction $r_{motion\_parallax}$ are most likely also contributing to the induction of head-bobbing behaviors.
 
 % behavior in bs=1; fifty_fifty
-  % We examine the biggest behavioral difference between pigeon models in the baseline experiments and their counterparts reflecting preliminary hypotheses, particularly, those trained on $r_{fifty\_fifty}$ with the body speed of 1.
-  % The latter example, unlike the former, presents a behavior where the head is moved downwards throughout the duration of the experiment (Figure \ref{fig:fifty_fifty_body_speed_1}).
-  % Despite the major differences between the two experiments, the latter does not suffer from an inability to acquire rewards (Figure \ref{fig:learning_rate_fifty_fifty_bs_1}).
-  % Considering that constantly bending one's neck downwards outside of its neutral posture would likely result in physical trauma for pigeons, it is possible to suspect that muscular strain may be a motivation to avoid reproducing the behavior seen in our experiment with $r_{fifty\_fifty}$ and adjust their neck posture to maintain an upright position.
-  % lack of muscular strain penalty?
-  % needs higher details, such as an addition of muscular physics, and progression in incremental modeling
-  % muscular simulation and their placements upon the skeletal model may lead to more stabilization (cite Geijtenbeek)
+  We examine the biggest behavioral difference between pigeon models in the baseline experiments and their counterparts reflecting preliminary hypotheses, particularly, those trained on $r_{fifty\_fifty}$ with the body speed of 1.
+  The latter example, unlike the former, presents a behavior where the head is moved downwards throughout the duration of the experiment (Figure \ref{fig:fifty_fifty_body_speed_1}).
+  Despite the major differences between the two experiments, the latter does not suffer from an inability to acquire rewards (Figure \ref{fig:learning_rate_fifty_fifty_bs_1}).
+  Considering that constantly bending one's neck downwards outside of its neutral posture would likely result in physical trauma for pigeons, it is possible to suspect that muscular strain may be a motivation to avoid reproducing the behavior seen in our experiment with $r_{fifty\_fifty}$ and adjust their neck posture to maintain an upright position.
+  Additionally, muscular simulation and their placements within the physical model may lead to more stabilization in its movements, as seen in Geijtenbeek's simulations of models of bipedal virtual creatures with muscular simulations \cite{geijtenbeek2013flexible}, where an optimization of placements of muscles using covariance matrix adaptation evolution strategy (CMA-ES) resulted in higher stability in the models' locomotion.
+  Following such observation, we can hypothesize that a lack of muscular strain penalty in our pigeon model may be the cause in the discrepancies. As a progression in incremental modeling, an addition of muscular physics would be appropriate.
 
 % may need a state machine-like mechanism for replication of head-bob
   % composed of the "hold phase" state and the "thrust phase" state
