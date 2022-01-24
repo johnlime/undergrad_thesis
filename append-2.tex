@@ -1,7 +1,8 @@
 \section{Hyperparameters for Soft Actor Critic Training}
-\subsection{}
+
 % SAC training workflow
-  % \cite{haarnoja2018soft}
+In the paper which proposed the soft actor critic alorithm \cite{haarnoja2018soft}, a workflow is presented as Figure \ref{fig:sac_algorithm}.
+
   \begin{figure}[H]
       \centering
       \includegraphics[width=1\textwidth / 2]{figures/external/sac_algorithm.png}
@@ -9,32 +10,30 @@
       \label{fig:sac_algorithm}
   \end{figure}
 
-% batch training
-% hidden layer size 256
-% epochs 3000
+The soft actor critic algorithm consists of 3 deep neural networks: a state value function $V$, a state-action value function $Q$, and a policy $\pi$. In \{fig:sac_algorithm}, the parameters of the functions, or in this case their weight values, are set as $\psi$, $\theta$, and $\phi$ respectively. Each deep neural network has one hidden layer that consists of 256 neurons.
 
-% timesteps per training loop 1000
-% param update per training loop 1000
-% batch size 256
-% replay_buffer_size=int(1E6),
+The learning rates of each deep neural network are set as the following.
+  \begin{itemize}
+    \item $\lambda_V = 3.0 \times 10^{-4}$
+    \item $\lambda_Q = 3.0 \times 10^{-4}$
+    \item $\lambda_\pi = 3.0 \times 10^{-4}$
+    \item $\tau = 5.0 \times 10^{-3}$
+  \end{itemize}
 
-% layer_size=256,
-%     replay_buffer_size=int(1E6),
-%     algorithm_kwargs=dict(
-%         num_epochs=3000,
-%         num_eval_steps_per_epoch=5000, % this is for evaluation
-%         num_trains_per_train_loop=1000,
-%         num_expl_steps_per_train_loop=1000,
-%           min_num_steps_before_training=1000,
-%           max_path_length=1000,
-%         batch_size=256,
-%     ),
-%     trainer_kwargs=dict(
-%         discount=0.99,
-%         soft_target_tau=5e-3,
-%         target_update_period=1,
-%         policy_lr=3E-4,
-%         qf_lr=3E-4,
-%         reward_scale=1,
-%         use_automatic_entropy_tuning=True,
-%     ),
+
+We trained our policies using batch training, where we preserve a set size of trajectories, or replay buffer size, of states and actions taken by the policy per iteration. Parameters regarding batch training are set as the following.
+  \begin{itemize}
+    \item Iterations (epochs): 3000
+    \item Environment steps per iteration: 1000
+    \item Gradient steps per iteration: 1000
+    \item Batch size: 256
+    \item Replay buffer size: 1.0 * 10^6
+  \end{itemize}
+
+Trajectories of states and actions totaling 5000 steps per epoch for determining the average return for evaluation.
+
+Returns $R$ are calculated as the following,
+  \begin{equation}
+    R = \sum_{t = 0}^n \gamma^t r_t
+  \end{equation}
+  where $r_t$ is the reward gained during timestep $t$, $n$ is the total number of timesteps taken to calculate $R$, and $\gamma$ is the discount. For all of our experiments, we set $\gamma = 0.99$.
