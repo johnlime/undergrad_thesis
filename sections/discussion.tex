@@ -10,10 +10,10 @@
 
 
 % fifty_fifty
-  % one possible argument against our claim can be pointed to our decision to weigh $r_{head\_stabilize}$ and $r_{motion\_parallax}$ for the rewards and eventually the return.
-  % change weights?
-  % but the max return for $r_{head\_stabilize}$ is 0, and yet they're still producing high returns
-  % factors other than fifty/fifty weight assignment
+  One possible argument against our claim can be pointed to our decision to weigh $r_{head\_stabilize}$ and $r_{motion\_parallax}$ equally for the reward that the policy or controller representing preliminary hypotheses $r_{fifty\_fifty}$. One could argue that by changing the weights, it may be possible to produce different behaviors than those shown in the results.
+  Specifically, by assigning a larger weight value for $r_{head\_stabilize}$ than that for $r_{motion\_parallax}$, one could expect a pigeon model with the body speed of 1 to reflect the task of constricting the global position of its head and produce hold phases while occasionally moving the head to induce motion parallax.
+  However, considering that the maximum return for $r_{head\_stabilize}$ is 0 and the pigeon whose controller was trained on $r_{fifty\_fifty}$ still managed to produce high positive returns as seen in Figure \ref{fig:learning_rate_fifty_fifty_bs_1} , it can be inferred that penalizing movement of the head would not change the resulting behavior.
+  Therefore, factors other than static visual stabilization $r_{head\_stabilize}$ and motion parallax induction $r_{motion\_parallax}$ are most likely also contributing to the induction of head-bobbing behaviors.
 
 % may need a state machine-like mechanism for replication of head-bob
   % composed of the "hold phase" state and the "thrust phase" state
