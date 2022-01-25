@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  25 JAN 2022 01:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  26 JAN 2022 03:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,25 +374,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `main.toc'.
 
  [3] (./main.lof
-Overfull \hbox (80.96008pt too wide) in paragraph at lines 8--8
- [][] []\OT1/cmr/m/n/12 Learning curve for re-turns of the pol-icy trained on $
-\OML/cmm/m/it/12 r[]$ 
- []
-
-
 Overfull \hbox (80.96008pt too wide) in paragraph at lines 9--9
  [][] []\OT1/cmr/m/n/12 Learning curve for re-turns of the pol-icy trained on $
 \OML/cmm/m/it/12 r[]$ 
  []
 
 
-Overfull \hbox (33.54373pt too wide) in paragraph at lines 10--10
+Overfull \hbox (80.96008pt too wide) in paragraph at lines 10--10
  [][] []\OT1/cmr/m/n/12 Learning curve for re-turns of the pol-icy trained on $
 \OML/cmm/m/it/12 r[]$ 
  []
 
 
-Overfull \hbox (107.56258pt too wide) in paragraph at lines 13--13
+Overfull \hbox (33.54373pt too wide) in paragraph at lines 11--11
+ [][] []\OT1/cmr/m/n/12 Learning curve for re-turns of the pol-icy trained on $
+\OML/cmm/m/it/12 r[]$ 
+ []
+
+
+Overfull \hbox (107.56258pt too wide) in paragraph at lines 14--14
  [][] []\OT1/cmr/m/n/12 Control of a pi-geon model with a static body trained o
 n $\OML/cmm/m/it/12 r[]$ 
  []
@@ -400,25 +400,25 @@ n $\OML/cmm/m/it/12 r[]$
 [4
 
 ]
-Overfull \hbox (6.41795pt too wide) in paragraph at lines 19--19
+Overfull \hbox (6.41795pt too wide) in paragraph at lines 20--20
  \OT1/cmr/m/n/12 of 1 trained on $\OML/cmm/m/it/12 r[]$ \OT1/cmr/m/n/12 with $\
 OML/cmm/m/it/12 max[]offset \OT1/cmr/m/n/12 = 
  []
 
 
-Overfull \hbox (105.43483pt too wide) in paragraph at lines 20--20
- [][] []\OT1/cmr/m/n/12 An al-tered Fig-ure 5.12[], where tra-jec-to-ries rep-r
+Overfull \hbox (105.43483pt too wide) in paragraph at lines 21--21
+ [][] []\OT1/cmr/m/n/12 An al-tered Fig-ure 6.12[], where tra-jec-to-ries rep-r
 e-sent-ing $\OML/cmm/m/it/12 r[]$ 
  []
 
 
-Overfull \hbox (107.7237pt too wide) in paragraph at lines 21--21
- [][] []\OT1/cmr/m/n/12 Same as Fig-ure 5.13[], ex-cept the tra-jec-tory rep-re
+Overfull \hbox (107.7237pt too wide) in paragraph at lines 22--22
+ [][] []\OT1/cmr/m/n/12 Same as Fig-ure 6.13[], ex-cept the tra-jec-tory rep-re
 -sent-ing $\OML/cmm/m/it/12 r[]$ 
  []
 
 
-Overfull \hbox (40.04088pt too wide) in paragraph at lines 21--21
+Overfull \hbox (40.04088pt too wide) in paragraph at lines 22--22
  \OT1/cmr/m/n/12 is re-moved to only show the tra-jec-tory rep-re-sent-ing $\OM
 L/cmm/m/it/12 r[]$ 
  []
@@ -427,27 +427,31 @@ L/cmm/m/it/12 r[]$
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5] (./sections/background.tex
+ [5] (./sections/introduction.tex
 Chapter 1.
 [1
 
-]) (./sections/preliminary_research.tex [2]
+]) (./sections/background.tex [2]
 Chapter 2.
+[3
+
+]) (./sections/preliminary_research.tex [4]
+Chapter 3.
 
 Overfull \hbox (23.85947pt too wide) in paragraph at lines 2--2
 []\OT1/cmr/bx/n/17.28 Modeling Bi-o-log-i-cal Phe-nom-ena us-ing Robotics 
  []
 
-[3
+[5
 
-] [4] [5]) (./sections/approach.tex [6] [7]
-Chapter 3.
+] [6] [7]) (./sections/approach.tex [8] [9]
+Chapter 4.
 
 Overfull \hbox (2.97148pt too wide) in paragraph at lines 10--10
 []\OT1/cmr/bx/n/17.28 Baseline: Manually-Defined Head Tra-jec-tory 
  []
 
-[8
+[10
 
 ]
 Overfull \hbox (11.66547pt too wide) in paragraph at lines 17--18
@@ -455,30 +459,30 @@ Overfull \hbox (11.66547pt too wide) in paragraph at lines 17--18
 ead sta-bi-liza-tion $[]$
  []
 
-[9]) (./sections/experiments.tex [10]
-Chapter 4.
-<figures/pigeon_diagram/pigeon_diagram_001.png, id=65, 2055.68pt x 1541.76pt>
+[11]) (./sections/experiments.tex [12]
+Chapter 5.
+<figures/pigeon_diagram/pigeon_diagram_001.png, id=72, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_001.png Graphic file (type png)
 <use figures/pigeon_diagram/pigeon_diagram_001.png>
 Package pdftex.def Info: figures/pigeon_diagram/pigeon_diagram_001.png  used on
  input line 8.
 (pdftex.def)             Requested size: 415.4104pt x 311.54597pt.
-[11
+[13
 
-] [12 <./figures/pigeon_diagram/pigeon_diagram_001.png>]
-<figures/pigeon_diagram/pigeon_diagram_002.png, id=76, 2055.68pt x 1541.76pt>
+] [14 <./figures/pigeon_diagram/pigeon_diagram_001.png>]
+<figures/pigeon_diagram/pigeon_diagram_002.png, id=82, 2055.68pt x 1541.76pt>
 File: figures/pigeon_diagram/pigeon_diagram_002.png Graphic file (type png)
 <use figures/pigeon_diagram/pigeon_diagram_002.png>
 Package pdftex.def Info: figures/pigeon_diagram/pigeon_diagram_002.png  used on
  input line 25.
 (pdftex.def)             Requested size: 415.4104pt x 311.54597pt.
- [13 <./figures/pigeon_diagram/pigeon_diagram_002.png>]
+ [15 <./figures/pigeon_diagram/pigeon_diagram_002.png>]
 Overfull \hbox (48.4573pt too wide) in paragraph at lines 67--69
 []\OT1/cmr/m/n/12 We con-structed Ope-nAI Gym [2] en-vi-ron-ments [][] and []
  []
 
-[14]) (./sections/results.tex [15]
-Chapter 5.
+[16]) (./sections/results.tex [17]
+Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
@@ -489,7 +493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--14
 
  []
 
-[16
+[18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
@@ -506,8 +510,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 
  []
 
-[17]
-<figures/learning_curves/manual_bs_0.png, id=96, 3011.25pt x 975.645pt>
+[19]
+<figures/learning_curves/manual_bs_0.png, id=103, 3011.25pt x 975.645pt>
 File: figures/learning_curves/manual_bs_0.png Graphic file (type png)
 <use figures/learning_curves/manual_bs_0.png>
 Package pdftex.def Info: figures/learning_curves/manual_bs_0.png  used on input
@@ -515,11 +519,12 @@ Package pdftex.def Info: figures/learning_curves/manual_bs_0.png  used on input
 (pdftex.def)             Requested size: 415.4104pt x 134.5796pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/cmr/m/n/10 Figure 5.1: Learn-ing curve for re-turns of the pol-icy train
+[]\OT1/cmr/m/n/10 Figure 6.1: Learn-ing curve for re-turns of the pol-icy train
 ed on
  []
 
-<figures/learning_curves/manual_strict_bs_1.png, id=97, 3011.25pt x 975.645pt>
+<figures/learning_curves/manual_strict_bs_1.png, id=104, 3011.25pt x 975.645pt>
+
 File: figures/learning_curves/manual_strict_bs_1.png Graphic file (type png)
 <use figures/learning_curves/manual_strict_bs_1.png>
 Package pdftex.def Info: figures/learning_curves/manual_strict_bs_1.png  used o
@@ -527,46 +532,46 @@ n input line 56.
 (pdftex.def)             Requested size: 415.4104pt x 134.5796pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\OT1/cmr/m/n/10 Figure 5.2: Learn-ing curve for re-turns of the pol-icy train
+[]\OT1/cmr/m/n/10 Figure 6.2: Learn-ing curve for re-turns of the pol-icy train
 ed on
  []
 
-<figures/learning_curves/manual_not_strict_bs_1.png, id=98, 3011.25pt x 975.645
-pt>
+<figures/learning_curves/manual_not_strict_bs_1.png, id=105, 3011.25pt x 975.64
+5pt>
 File: figures/learning_curves/manual_not_strict_bs_1.png Graphic file (type png
 )
 <use figures/learning_curves/manual_not_strict_bs_1.png>
 Package pdftex.def Info: figures/learning_curves/manual_not_strict_bs_1.png  us
 ed on input line 63.
 (pdftex.def)             Requested size: 415.4104pt x 134.5796pt.
-[18 <./figures/learning_curves/manual_bs_0.png> <./figures/learning_curves/manu
+[20 <./figures/learning_curves/manual_bs_0.png> <./figures/learning_curves/manu
 al_strict_bs_1.png>]
-<figures/learning_curves/fifty_fifty_bs_0.png, id=107, 3011.25pt x 975.645pt>
+<figures/learning_curves/fifty_fifty_bs_0.png, id=113, 3011.25pt x 975.645pt>
 File: figures/learning_curves/fifty_fifty_bs_0.png Graphic file (type png)
 <use figures/learning_curves/fifty_fifty_bs_0.png>
 Package pdftex.def Info: figures/learning_curves/fifty_fifty_bs_0.png  used on 
 input line 70.
 (pdftex.def)             Requested size: 415.4104pt x 134.5796pt.
-<figures/learning_curves/fifty_fifty_bs_1.png, id=108, 3011.25pt x 975.645pt>
+<figures/learning_curves/fifty_fifty_bs_1.png, id=114, 3011.25pt x 975.645pt>
 File: figures/learning_curves/fifty_fifty_bs_1.png Graphic file (type png)
 <use figures/learning_curves/fifty_fifty_bs_1.png>
 Package pdftex.def Info: figures/learning_curves/fifty_fifty_bs_1.png  used on 
 input line 77.
 (pdftex.def)             Requested size: 415.4104pt x 134.5796pt.
- [19 <./figures/learning_curves/manual_not_strict_bs_1.png> <./figures/learning
+ [21 <./figures/learning_curves/manual_not_strict_bs_1.png> <./figures/learning
 _curves/fifty_fifty_bs_0.png> <./figures/learning_curves/fifty_fifty_bs_1.png>]
-<figures/frames/frames_001.png, id=115, 5018.75pt x 3011.25pt>
+<figures/frames/frames_001.png, id=121, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_001.png Graphic file (type png)
 <use figures/frames/frames_001.png>
 Package pdftex.def Info: figures/frames/frames_001.png  used on input line 97.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--98
-[]\OT1/cmr/m/n/10 Figure 5.6: Con-trol of a pi-geon model with a static body tr
+[]\OT1/cmr/m/n/10 Figure 6.6: Con-trol of a pi-geon model with a static body tr
 ained on
  []
 
-<figures/frames/frames_002.png, id=116, 5018.75pt x 3011.25pt>
+<figures/frames/frames_002.png, id=122, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_002.png Graphic file (type png)
 <use figures/frames/frames_002.png>
 Package pdftex.def Info: figures/frames/frames_002.png  used on input line 104.
@@ -574,12 +579,12 @@ Package pdftex.def Info: figures/frames/frames_002.png  used on input line 104.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
 Underfull \hbox (badness 4467) in paragraph at lines 105--105
-[]\OT1/cmr/m/n/10 Figure 5.7: Con-trol of a pi-geon model with the body speed o
+[]\OT1/cmr/m/n/10 Figure 6.7: Con-trol of a pi-geon model with the body speed o
 f 1 trained on
  []
 
-[20 <./figures/frames/frames_001.png>]
-<figures/frames/frames_003.png, id=121, 5018.75pt x 3011.25pt>
+[22 <./figures/frames/frames_001.png>]
+<figures/frames/frames_003.png, id=127, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_003.png Graphic file (type png)
 <use figures/frames/frames_003.png>
 Package pdftex.def Info: figures/frames/frames_003.png  used on input line 111.
@@ -587,33 +592,33 @@ Package pdftex.def Info: figures/frames/frames_003.png  used on input line 111.
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
 Underfull \hbox (badness 4467) in paragraph at lines 112--112
-[]\OT1/cmr/m/n/10 Figure 5.8: Con-trol of a pi-geon model with the body speed o
+[]\OT1/cmr/m/n/10 Figure 6.8: Con-trol of a pi-geon model with the body speed o
 f 1 trained on
  []
 
-[21 <./figures/frames/frames_002.png>]
-<figures/frames/frames_004.png, id=126, 5018.75pt x 3011.25pt>
+[23 <./figures/frames/frames_002.png>]
+<figures/frames/frames_004.png, id=132, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_004.png Graphic file (type png)
 <use figures/frames/frames_004.png>
 Package pdftex.def Info: figures/frames/frames_004.png  used on input line 118.
 
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
- [22 <./figures/frames/frames_003.png>]
-<figures/frames/frames_005.png, id=131, 5018.75pt x 3011.25pt>
+ [24 <./figures/frames/frames_003.png>]
+<figures/frames/frames_005.png, id=138, 5018.75pt x 3011.25pt>
 File: figures/frames/frames_005.png Graphic file (type png)
 <use figures/frames/frames_005.png>
 Package pdftex.def Info: figures/frames/frames_005.png  used on input line 125.
 
 (pdftex.def)             Requested size: 415.4104pt x 249.2215pt.
 
-[23 <./figures/frames/frames_004.png> <./figures/frames/frames_005.png>]
-<figures/head_tracking_results/pigeon_bs_0.png, id=137, 939.51pt x 689.7268pt>
+[25 <./figures/frames/frames_004.png> <./figures/frames/frames_005.png>]
+<figures/head_tracking_results/pigeon_bs_0.png, id=144, 939.51pt x 689.7268pt>
 File: figures/head_tracking_results/pigeon_bs_0.png Graphic file (type png)
 <use figures/head_tracking_results/pigeon_bs_0.png>
 Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_0.png  used on
  input line 139.
 (pdftex.def)             Requested size: 415.4104pt x 304.96466pt.
-<figures/head_tracking_results/pigeon_bs_1_all.png, id=138, 938.60663pt x 686.5
+<figures/head_tracking_results/pigeon_bs_1_all.png, id=145, 938.60663pt x 686.5
 65pt>
 File: figures/head_tracking_results/pigeon_bs_1_all.png Graphic file (type png)
 
@@ -622,15 +627,15 @@ Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_1_all.png  use
 d on input line 146.
 (pdftex.def)             Requested size: 415.4104pt x 303.86pt.
 
-[24 <./figures/head_tracking_results/pigeon_bs_0.png>]
-Overfull \hbox (42.74236pt too wide) in paragraph at lines 156--158
-\OT1/cmr/m/n/12 of the tra-jec-to-ries 5.13[], where the tra-jec-tory rep-re-se
-nt-ing $\OML/cmm/m/it/12 r[]$
+[26 <./figures/head_tracking_results/pigeon_bs_0.png>]
+Overfull \hbox (78.47949pt too wide) in paragraph at lines 156--158
+\OT1/cmr/m/n/12 of the tra-jec-to-ries Fig-ure 6.13[], where the tra-jec-tory r
+ep-re-sent-ing $\OML/cmm/m/it/12 r[]$
  []
 
-[25 <./figures/head_tracking_results/pigeon_bs_1_all.png>]
+[27 <./figures/head_tracking_results/pigeon_bs_1_all.png>]
 <figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png, id=
-148, 938.60663pt x 686.565pt>
+154, 938.60663pt x 686.565pt>
 File: figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png
  Graphic file (type png)
 <use figures/head_tracking_results/pigeon_bs_1_all_trimmed_250_550_300_550.png>
@@ -640,7 +645,7 @@ Package pdftex.def Info: figures/head_tracking_results/pigeon_bs_1_all_trimmed_
 (pdftex.def)             Requested size: 415.4104pt x 303.86pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 162--162
-[]\OT1/cmr/m/n/10 Figure 5.13: An al-tered Fig-ure 5.12[], where tra-jec-to-rie
+[]\OT1/cmr/m/n/10 Figure 6.13: An al-tered Fig-ure 6.12[], where tra-jec-to-rie
 s rep-re-sent-ing
  []
 
@@ -651,7 +656,7 @@ ned on $\OML/cmm/m/it/12 r[]$
  []
 
 <figures/head_tracking_results/pigeon_bs_1_vs_closest_trimmed_300_550.png, id=1
-49, 938.60663pt x 686.565pt>
+55, 938.60663pt x 686.565pt>
 File: figures/head_tracking_results/pigeon_bs_1_vs_closest_trimmed_300_550.png 
 Graphic file (type png)
 <use figures/head_tracking_results/pigeon_bs_1_vs_closest_trimmed_300_550.png>
@@ -660,7 +665,7 @@ rimmed_300_550.png  used on input line 171.
 (pdftex.def)             Requested size: 415.4104pt x 303.86pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]\OT1/cmr/m/n/10 Figure 5.14: Same as Fig-ure 5.13[], ex-cept the tra-jec-tory
+[]\OT1/cmr/m/n/10 Figure 6.14: Same as Fig-ure 6.13[], ex-cept the tra-jec-tory
  rep-re-sent-ing
  []
 
@@ -670,17 +675,21 @@ Underfull \hbox (badness 1622) in paragraph at lines 172--172
  rep-re-sent-
  []
 
-) (./sections/discussion.tex [26 <./figures/head_tracking_results/pigeon_bs_1_a
-ll_trimmed_250_550_300_550.png>] [27 <./figures/head_tracking_results/pigeon_bs
+) (./sections/discussion.tex [28 <./figures/head_tracking_results/pigeon_bs_1_a
+ll_trimmed_250_550_300_550.png>] [29 <./figures/head_tracking_results/pigeon_bs
 _1_vs_closest_trimmed_300_550.png>]
-Chapter 6.
-[28
+Chapter 7.
+[30
 
-] [29]) [30] [31
+] [31]) (./sections/conclusion.tex [32]
+Chapter 8.
+) [33
 
-] (./main.bbl [32
+] [34
 
-]) [33] (./append-1-0.tex
+] (./main.bbl [35
+
+]) [36] (./append-1-0.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 
  []
@@ -690,28 +699,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-[34
+[37
 
 ]
 Overfull \hbox (32.81938pt too wide) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Sum of re-wards pro-duced by [][][][][][] and [][][]
  []
 
-[35] [36]) (./append-1-1.tex [37] [38] [39] [40] [41] [42] [43] [44] [45]
-[46]) (./append-1-2.tex [47] [48] [49] [50] [51] [52]) [53] (./append-2.tex
-<figures/external/sac_algorithm.png, id=243, 738.76pt x 587.19376pt>
+[38] [39]) (./append-1-1.tex [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49]) [50] (./append-1-2.tex [51] [52] [53] [54] [55]) [56] (./append-2.tex
+<figures/external/sac_algorithm.png, id=253, 738.76pt x 587.19376pt>
 File: figures/external/sac_algorithm.png Graphic file (type png)
 <use figures/external/sac_algorithm.png>
 Package pdftex.def Info: figures/external/sac_algorithm.png  used on input line
  8.
 (pdftex.def)             Requested size: 415.4104pt x 330.1792pt.
 
-[54 <./figures/external/sac_algorithm.png>]) [55] (./main.aux) ) 
+[57 <./figures/external/sac_algorithm.png>]) [58] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5484 strings out of 478994
- 76297 string characters out of 5858184
- 536929 words of memory out of 5000000
- 22827 multiletter control sequences out of 15000+600000
+ 5501 strings out of 478994
+ 76598 string characters out of 5858184
+ 548008 words of memory out of 5000000
+ 22838 multiletter control sequences out of 15000+600000
  413518 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,20n,74p,1073b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -734,10 +743,10 @@ nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2021/texmf-dist/fonts
 /type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (62 pages, 4476447 bytes).
+Output written on main.pdf (65 pages, 4479617 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 318 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
