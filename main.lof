@@ -3,23 +3,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of the pigeon model}}{14}{}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Head trajectory tracking}}{15}{}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagram of the pigeon model}}{14}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Head trajectory tracking}}{15}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 0$ and $max\_offset = 0.5$}}{20}{}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 1$ and $max\_offset = 1.0$}}{20}{}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition}$ with $body\_speed = 1$ and $max\_offset = 1.0$}}{21}{}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 0$}}{21}{}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 1$}}{21}{}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{22}{}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{23}{}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{24}{}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Control of a pigeon model with a static body trained on $r_{fifty\_fifty}$}}{25}{}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{fifty\_fifty}$}}{25}{}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Trajectories of heads and bodies of pigeon models with static bodies trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$ and $r_{fifty\_fifty}$}}{26}{}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Trajectories of heads and bodies of pigeon models with body speeds of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$, $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$, and $r_{fifty\_fifty}$}}{27}{}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces An altered Figure 6.12\hbox {}, where trajectories representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and $r_{head\_stable\_manual\_reposition}$ are trimmed to only show their head-bobbing behaviors}}{28}{}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Same as Figure 6.13\hbox {}, except the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is removed to only show the trajectory representing $r_{head\_stable\_manual\_reposition}$ as baseline}}{29}{}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 0$ and $max\_offset = 0.5$}}{20}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $body\_speed = 1$ and $max\_offset = 1.0$}}{20}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Learning curve for returns of the policy trained on $r_{head\_stable\_manual\_reposition}$ with $body\_speed = 1$ and $max\_offset = 1.0$}}{21}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 0$}}{21}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Learning curve for returns of the policy trained on $r_{fifty\_fifty}$ with $body\_speed = 1$}}{21}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Control of a pigeon model with a static body trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{22}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{23}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$. The green circle indicates the margin of error around the target head location defined by $max\_offset$.}}{24}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Control of a pigeon model with a static body trained on $r_{fifty\_fifty}$}}{25}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Control of a pigeon model with the body speed of 1 trained on $r_{fifty\_fifty}$}}{25}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Trajectories of heads and bodies of pigeon models with static bodies trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 0.5$ and $r_{fifty\_fifty}$}}{26}% 
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Trajectories of heads and bodies of pigeon models with body speeds of 1 trained on $r_{head\_stable\_manual\_reposition\_strict\_angle}$ with $max\_offset = 1.0$, $r_{head\_stable\_manual\_reposition}$ with $max\_offset = 1.0$, and $r_{fifty\_fifty}$}}{27}% 
+\contentsline {figure}{\numberline {6.13}{\ignorespaces An altered Figure 6.12\hbox {}, where trajectories representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ and $r_{head\_stable\_manual\_reposition}$ are trimmed to only show their head-bobbing behaviors}}{28}% 
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Same as Figure 6.13\hbox {}, except the trajectory representing $r_{head\_stable\_manual\_reposition\_strict\_angle}$ is removed to only show the trajectory representing $r_{head\_stable\_manual\_reposition}$ as baseline}}{29}% 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Soft Actor Critic algorithm as seen in \cite {haarnoja2018soft}}}{57}{}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Soft Actor Critic algorithm as seen in \cite {haarnoja2018soft}}}{57}% 
