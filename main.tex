@@ -92,7 +92,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%Abstract%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \eabstract{
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur porta augue, at interdum nunc lobortis at. Morbi feugiat facilisis justo, vitae maximus dolor. Cras convallis at elit in porta. Fusce lobortis tortor nibh, quis imperdiet arcu luctus quis. Mauris imperdiet urna eu mauris aliquet, vitae tincidunt orci dapibus. Vestibulum convallis elit ut velit accumsan cursus. Pellentesque lacus lacus, blandit eu felis vitae, pellentesque dignissim est.
+Head-bobbing is a behavior unique to forward locomotion in small birds, mainly pigeons, that consists of a hold phase, where they lock the position of their heads into one position, and a thrust phase, where they move them to a different position.
+2 main functionalities of the behavior have been proposed in preliminary research: visual stabilization and induction of motion parallax; however, there is a lack of research that focus on validating their sufficiency by attempting to reproduce it in environments that take physics into account.
+In our research, we construct a simplified model of pigeons that represent their heads, necks, and bodies and model the functionalities of the behavior proposed in preliminary research using reinforcement learning.
+
+By testing this control system in a physics engine and observing behaviors exhibited by them, we find that the preliminary hypotheses are insufficient for reproducing head-bobbing.
+We discuss that the lack of muscular constraints, such as muscle strain, and hierarchical controllers in the model may be the cause of the discrepancies, and propose that such topics should be explored further in future research.
 }
 %%%%%%%%%%%%%%%%%%%%%%%%% Document starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -125,7 +130,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur porta augu
   \input{sections/conclusion.tex}
 
 
-  % Acknowledgements
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Acknowledgements %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \acknowledgements
   I would like to show my sincere gratitude to Professor Jin Nakazawa, Professor Kazuhiro Takashio, and Project Professor Aono Masashi for introducing me to robotics, artificial intelligence, and biology, giving feedback on research projects that I had worked on during my sophomore and junior years in undergraduate studies, and guiding me to become a better researcher.
 
@@ -134,7 +139,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur porta augu
   Finally, I thank my parents for financially supporting me throughout my undergraduate studies.
 
 
-
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Reference %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % Reference
   \newpage
   %\reference
